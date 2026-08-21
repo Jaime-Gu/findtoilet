@@ -81,8 +81,8 @@ body {
   border-radius: 9px;
 }
 .lang-btn img {
-  width: 30px;
-  height: 30px;
+  width: 34px;
+  height: 34px;
   display: block;
   transition: transform 0.18s ease, opacity 0.18s ease;
 }

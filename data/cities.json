@@ -22,7 +22,9 @@
           "names": {
             "zh": "巴黎",
             "es": "París",
-            "ja": "パリ"
+            "ja": "パリ",
+            "ko": "파리",
+            "fr": "Paris"
           }
         },
         {
@@ -39,14 +41,18 @@
           "names": {
             "zh": "马赛",
             "es": "Marsella",
-            "ja": "マルセイユ"
+            "ja": "マルセイユ",
+            "ko": "마르세유",
+            "fr": "Marseille"
           }
         }
       ],
       "names": {
         "zh": "法国",
         "es": "Francia",
-        "ja": "フランス"
+        "ja": "フランス",
+        "ko": "프랑스",
+        "fr": "France"
       }
     },
     {
@@ -67,7 +73,9 @@
           "names": {
             "zh": "罗马",
             "es": "Roma",
-            "ja": "ローマ"
+            "ja": "ローマ",
+            "ko": "로마",
+            "fr": "Rome"
           }
         },
         {
@@ -84,7 +92,9 @@
           "names": {
             "zh": "米兰",
             "es": "Milán",
-            "ja": "ミラノ"
+            "ja": "ミラノ",
+            "ko": "밀라노",
+            "fr": "Milan"
           }
         },
         {
@@ -101,14 +111,18 @@
           "names": {
             "zh": "那不勒斯",
             "es": "Nápoles",
-            "ja": "ナポリ"
+            "ja": "ナポリ",
+            "ko": "나폴리",
+            "fr": "Naples"
           }
         }
       ],
       "names": {
         "zh": "意大利",
         "es": "Italia",
-        "ja": "イタリア"
+        "ja": "イタリア",
+        "ko": "이탈리아",
+        "fr": "Italie"
       }
     },
     {
@@ -129,7 +143,9 @@
           "names": {
             "zh": "巴塞罗那",
             "es": "Barcelona",
-            "ja": "バルセロナ"
+            "ja": "バルセロナ",
+            "ko": "바르셀로나",
+            "fr": "Barcelone"
           }
         },
         {
@@ -146,14 +162,18 @@
           "names": {
             "zh": "马德里",
             "es": "Madrid",
-            "ja": "マドリード"
+            "ja": "マドリード",
+            "ko": "마드리드",
+            "fr": "Madrid"
           }
         }
       ],
       "names": {
         "zh": "西班牙",
         "es": "España",
-        "ja": "スペイン"
+        "ja": "スペイン",
+        "ko": "스페인",
+        "fr": "Espagne"
       }
     },
     {
@@ -174,7 +194,9 @@
           "names": {
             "zh": "阿姆斯特丹",
             "es": "Ámsterdam",
-            "ja": "アムステルダム"
+            "ja": "アムステルダム",
+            "ko": "암스테르담",
+            "fr": "Amsterdam"
           }
         },
         {
@@ -191,14 +213,18 @@
           "names": {
             "zh": "海牙",
             "es": "La Haya",
-            "ja": "ハーグ"
+            "ja": "ハーグ",
+            "ko": "헤이그",
+            "fr": "La Haye"
           }
         }
       ],
       "names": {
         "zh": "荷兰",
         "es": "Países Bajos",
-        "ja": "オランダ"
+        "ja": "オランダ",
+        "ko": "네덜란드",
+        "fr": "Pays-Bas"
       }
     },
     {
@@ -219,7 +245,9 @@
           "names": {
             "zh": "柏林",
             "es": "Berlín",
-            "ja": "ベルリン"
+            "ja": "ベルリン",
+            "ko": "베를린",
+            "fr": "Berlin"
           }
         },
         {
@@ -236,14 +264,18 @@
           "names": {
             "zh": "科隆",
             "es": "Colonia",
-            "ja": "ケルン"
+            "ja": "ケルン",
+            "ko": "쾰른",
+            "fr": "Cologne"
           }
         }
       ],
       "names": {
         "zh": "德国",
         "es": "Alemania",
-        "ja": "ドイツ"
+        "ja": "ドイツ",
+        "ko": "독일",
+        "fr": "Allemagne"
       }
     },
     {
@@ -264,14 +296,18 @@
           "names": {
             "zh": "布拉格",
             "es": "Praga",
-            "ja": "プラハ"
+            "ja": "プラハ",
+            "ko": "프라하",
+            "fr": "Prague"
           }
         }
       ],
       "names": {
         "zh": "捷克",
         "es": "Chequia",
-        "ja": "チェコ"
+        "ja": "チェコ",
+        "ko": "체코",
+        "fr": "Tchéquie"
       }
     },
     {
@@ -292,14 +328,18 @@
           "names": {
             "zh": "维也纳",
             "es": "Viena",
-            "ja": "ウィーン"
+            "ja": "ウィーン",
+            "ko": "비엔나",
+            "fr": "Vienne"
           }
         }
       ],
       "names": {
         "zh": "奥地利",
         "es": "Austria",
-        "ja": "オーストリア"
+        "ja": "オーストリア",
+        "ko": "오스트리아",
+        "fr": "Autriche"
       }
     },
     {
@@ -320,14 +360,18 @@
           "names": {
             "zh": "布鲁塞尔",
             "es": "Bruselas",
-            "ja": "ブリュッセル"
+            "ja": "ブリュッセル",
+            "ko": "브뤼셀",
+            "fr": "Bruxelles"
           }
         }
       ],
       "names": {
         "zh": "比利时",
         "es": "Bélgica",
-        "ja": "ベルギー"
+        "ja": "ベルギー",
+        "ko": "벨기에",
+        "fr": "Belgique"
       }
     },
     {
@@ -348,14 +392,18 @@
           "names": {
             "zh": "布达佩斯",
             "es": "Budapest",
-            "ja": "ブダペスト"
+            "ja": "ブダペスト",
+            "ko": "부다페스트",
+            "fr": "Budapest"
           }
         }
       ],
       "names": {
         "zh": "匈牙利",
         "es": "Hungría",
-        "ja": "ハンガリー"
+        "ja": "ハンガリー",
+        "ko": "헝가리",
+        "fr": "Hongrie"
       }
     },
     {
@@ -376,14 +424,18 @@
           "names": {
             "zh": "里斯本",
             "es": "Lisboa",
-            "ja": "リスボン"
+            "ja": "リスボン",
+            "ko": "리스본",
+            "fr": "Lisbonne"
           }
         }
       ],
       "names": {
         "zh": "葡萄牙",
         "es": "Portugal",
-        "ja": "ポルトガル"
+        "ja": "ポルトガル",
+        "ko": "포르투갈",
+        "fr": "Portugal"
       }
     },
     {
@@ -404,7 +456,9 @@
           "names": {
             "zh": "伦敦",
             "es": "Londres",
-            "ja": "ロンドン"
+            "ja": "ロンドン",
+            "ko": "런던",
+            "fr": "Londres"
           }
         },
         {
@@ -421,7 +475,9 @@
           "names": {
             "zh": "曼彻斯特",
             "es": "Mánchester",
-            "ja": "マンチェスター"
+            "ja": "マンチェスター",
+            "ko": "맨체스터",
+            "fr": "Manchester"
           }
         },
         {
@@ -438,7 +494,9 @@
           "names": {
             "zh": "爱丁堡",
             "es": "Edimburgo",
-            "ja": "エディンバラ"
+            "ja": "エディンバラ",
+            "ko": "에든버러",
+            "fr": "Édimbourg"
           }
         },
         {
@@ -455,7 +513,9 @@
           "names": {
             "zh": "伯明翰",
             "es": "Birmingham",
-            "ja": "バーミンガム"
+            "ja": "バーミンガム",
+            "ko": "버밍엄",
+            "fr": "Birmingham"
           }
         },
         {
@@ -472,7 +532,9 @@
           "names": {
             "zh": "布里斯托",
             "es": "Brístol",
-            "ja": "ブリストル"
+            "ja": "ブリストル",
+            "ko": "브리스틀",
+            "fr": "Bristol"
           }
         },
         {
@@ -489,14 +551,18 @@
           "names": {
             "zh": "格拉斯哥",
             "es": "Glasgow",
-            "ja": "グラスゴー"
+            "ja": "グラスゴー",
+            "ko": "글래스고",
+            "fr": "Glasgow"
           }
         }
       ],
       "names": {
         "zh": "英国",
         "es": "Reino Unido",
-        "ja": "イギリス"
+        "ja": "イギリス",
+        "ko": "영국",
+        "fr": "Royaume-Uni"
       }
     },
     {
@@ -517,14 +583,18 @@
           "names": {
             "zh": "都柏林",
             "es": "Dublín",
-            "ja": "ダブリン"
+            "ja": "ダブリン",
+            "ko": "더블린",
+            "fr": "Dublin"
           }
         }
       ],
       "names": {
         "zh": "爱尔兰",
         "es": "Irlanda",
-        "ja": "アイルランド"
+        "ja": "アイルランド",
+        "ko": "아일랜드",
+        "fr": "Irlande"
       }
     }
   ]
