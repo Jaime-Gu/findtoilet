@@ -18,9 +18,36 @@
           "zoom": 13,
           "data": "data/toilets/france/paris.geojson",
           "osm_relation": 71525,
-          "count": 931
+          "count": 931,
+          "names": {
+            "zh": "巴黎",
+            "es": "París",
+            "ja": "パリ"
+          }
+        },
+        {
+          "code": "marseille",
+          "name": "Marseille",
+          "center": [
+            43.2963986,
+            5.3777888
+          ],
+          "zoom": 13,
+          "data": "data/toilets/france/marseille.geojson",
+          "osm_relation": 76469,
+          "count": 127,
+          "names": {
+            "zh": "马赛",
+            "es": "Marsella",
+            "ja": "マルセイユ"
+          }
         }
-      ]
+      ],
+      "names": {
+        "zh": "法国",
+        "es": "Francia",
+        "ja": "フランス"
+      }
     },
     {
       "code": "italy",
@@ -36,9 +63,53 @@
           "zoom": 13,
           "data": "data/toilets/italy/rome.geojson",
           "osm_relation": 41485,
-          "count": 284
+          "count": 284,
+          "names": {
+            "zh": "罗马",
+            "es": "Roma",
+            "ja": "ローマ"
+          }
+        },
+        {
+          "code": "milan",
+          "name": "Milan",
+          "center": [
+            45.4641943,
+            9.1896346
+          ],
+          "zoom": 13,
+          "data": "data/toilets/italy/milan.geojson",
+          "osm_relation": 44915,
+          "count": 338,
+          "names": {
+            "zh": "米兰",
+            "es": "Milán",
+            "ja": "ミラノ"
+          }
+        },
+        {
+          "code": "naples",
+          "name": "Naples",
+          "center": [
+            40.8358846,
+            14.2487679
+          ],
+          "zoom": 13,
+          "data": "data/toilets/italy/naples.geojson",
+          "osm_relation": 40767,
+          "count": 59,
+          "names": {
+            "zh": "那不勒斯",
+            "es": "Nápoles",
+            "ja": "ナポリ"
+          }
         }
-      ]
+      ],
+      "names": {
+        "zh": "意大利",
+        "es": "Italia",
+        "ja": "イタリア"
+      }
     },
     {
       "code": "spain",
@@ -54,7 +125,12 @@
           "zoom": 13,
           "data": "data/toilets/spain/barcelona.geojson",
           "osm_relation": 347950,
-          "count": 290
+          "count": 290,
+          "names": {
+            "zh": "巴塞罗那",
+            "es": "Barcelona",
+            "ja": "バルセロナ"
+          }
         },
         {
           "code": "madrid",
@@ -66,9 +142,19 @@
           "zoom": 13,
           "data": "data/toilets/spain/madrid.geojson",
           "osm_relation": 5326784,
-          "count": 307
+          "count": 307,
+          "names": {
+            "zh": "马德里",
+            "es": "Madrid",
+            "ja": "マドリード"
+          }
         }
-      ]
+      ],
+      "names": {
+        "zh": "西班牙",
+        "es": "España",
+        "ja": "スペイン"
+      }
     },
     {
       "code": "netherlands",
@@ -84,9 +170,36 @@
           "zoom": 13,
           "data": "data/toilets/netherlands/amsterdam.geojson",
           "osm_relation": 271110,
-          "count": 161
+          "count": 161,
+          "names": {
+            "zh": "阿姆斯特丹",
+            "es": "Ámsterdam",
+            "ja": "アムステルダム"
+          }
+        },
+        {
+          "code": "the-hague",
+          "name": "The Hague",
+          "center": [
+            52.0799838,
+            4.3113461
+          ],
+          "zoom": 13,
+          "data": "data/toilets/netherlands/the-hague.geojson",
+          "osm_relation": 192737,
+          "count": 49,
+          "names": {
+            "zh": "海牙",
+            "es": "La Haya",
+            "ja": "ハーグ"
+          }
         }
-      ]
+      ],
+      "names": {
+        "zh": "荷兰",
+        "es": "Países Bajos",
+        "ja": "オランダ"
+      }
     },
     {
       "code": "germany",
@@ -102,9 +215,36 @@
           "zoom": 13,
           "data": "data/toilets/germany/berlin.geojson",
           "osm_relation": 62422,
-          "count": 1104
+          "count": 1104,
+          "names": {
+            "zh": "柏林",
+            "es": "Berlín",
+            "ja": "ベルリン"
+          }
+        },
+        {
+          "code": "cologne",
+          "name": "Cologne",
+          "center": [
+            50.938361,
+            6.959974
+          ],
+          "zoom": 13,
+          "data": "data/toilets/germany/cologne.geojson",
+          "osm_relation": 62578,
+          "count": 208,
+          "names": {
+            "zh": "科隆",
+            "es": "Colonia",
+            "ja": "ケルン"
+          }
         }
-      ]
+      ],
+      "names": {
+        "zh": "德国",
+        "es": "Alemania",
+        "ja": "ドイツ"
+      }
     },
     {
       "code": "czechia",
@@ -120,9 +260,19 @@
           "zoom": 13,
           "data": "data/toilets/czechia/prague.geojson",
           "osm_relation": 435514,
-          "count": 414
+          "count": 414,
+          "names": {
+            "zh": "布拉格",
+            "es": "Praga",
+            "ja": "プラハ"
+          }
         }
-      ]
+      ],
+      "names": {
+        "zh": "捷克",
+        "es": "Chequia",
+        "ja": "チェコ"
+      }
     },
     {
       "code": "austria",
@@ -138,9 +288,19 @@
           "zoom": 13,
           "data": "data/toilets/austria/vienna.geojson",
           "osm_relation": 109166,
-          "count": 749
+          "count": 749,
+          "names": {
+            "zh": "维也纳",
+            "es": "Viena",
+            "ja": "ウィーン"
+          }
         }
-      ]
+      ],
+      "names": {
+        "zh": "奥地利",
+        "es": "Austria",
+        "ja": "オーストリア"
+      }
     },
     {
       "code": "belgium",
@@ -156,9 +316,19 @@
           "zoom": 13,
           "data": "data/toilets/belgium/brussels.geojson",
           "osm_relation": 58274,
-          "count": 98
+          "count": 98,
+          "names": {
+            "zh": "布鲁塞尔",
+            "es": "Bruselas",
+            "ja": "ブリュッセル"
+          }
         }
-      ]
+      ],
+      "names": {
+        "zh": "比利时",
+        "es": "Bélgica",
+        "ja": "ベルギー"
+      }
     },
     {
       "code": "hungary",
@@ -174,9 +344,19 @@
           "zoom": 13,
           "data": "data/toilets/hungary/budapest.geojson",
           "osm_relation": 1244004,
-          "count": 619
+          "count": 619,
+          "names": {
+            "zh": "布达佩斯",
+            "es": "Budapest",
+            "ja": "ブダペスト"
+          }
         }
-      ]
+      ],
+      "names": {
+        "zh": "匈牙利",
+        "es": "Hungría",
+        "ja": "ハンガリー"
+      }
     },
     {
       "code": "portugal",
@@ -192,9 +372,19 @@
           "zoom": 13,
           "data": "data/toilets/portugal/lisbon.geojson",
           "osm_relation": 5400890,
-          "count": 267
+          "count": 267,
+          "names": {
+            "zh": "里斯本",
+            "es": "Lisboa",
+            "ja": "リスボン"
+          }
         }
-      ]
+      ],
+      "names": {
+        "zh": "葡萄牙",
+        "es": "Portugal",
+        "ja": "ポルトガル"
+      }
     },
     {
       "code": "uk",
@@ -210,7 +400,12 @@
           "zoom": 12,
           "data": "data/toilets/uk/london.geojson",
           "osm_relation": null,
-          "count": 2216
+          "count": 2216,
+          "names": {
+            "zh": "伦敦",
+            "es": "Londres",
+            "ja": "ロンドン"
+          }
         },
         {
           "code": "manchester",
@@ -222,7 +417,12 @@
           "zoom": 12,
           "data": "data/toilets/uk/manchester.geojson",
           "osm_relation": null,
-          "count": 166
+          "count": 166,
+          "names": {
+            "zh": "曼彻斯特",
+            "es": "Mánchester",
+            "ja": "マンチェスター"
+          }
         },
         {
           "code": "edinburgh",
@@ -234,7 +434,12 @@
           "zoom": 12,
           "data": "data/toilets/uk/edinburgh.geojson",
           "osm_relation": null,
-          "count": 124
+          "count": 124,
+          "names": {
+            "zh": "爱丁堡",
+            "es": "Edimburgo",
+            "ja": "エディンバラ"
+          }
         },
         {
           "code": "birmingham",
@@ -246,7 +451,12 @@
           "zoom": 12,
           "data": "data/toilets/uk/birmingham.geojson",
           "osm_relation": null,
-          "count": 127
+          "count": 127,
+          "names": {
+            "zh": "伯明翰",
+            "es": "Birmingham",
+            "ja": "バーミンガム"
+          }
         },
         {
           "code": "bristol",
@@ -258,7 +468,12 @@
           "zoom": 12,
           "data": "data/toilets/uk/bristol.geojson",
           "osm_relation": null,
-          "count": 222
+          "count": 222,
+          "names": {
+            "zh": "布里斯托",
+            "es": "Brístol",
+            "ja": "ブリストル"
+          }
         },
         {
           "code": "glasgow",
@@ -270,9 +485,47 @@
           "zoom": 12,
           "data": "data/toilets/uk/glasgow.geojson",
           "osm_relation": null,
-          "count": 113
+          "count": 113,
+          "names": {
+            "zh": "格拉斯哥",
+            "es": "Glasgow",
+            "ja": "グラスゴー"
+          }
         }
-      ]
+      ],
+      "names": {
+        "zh": "英国",
+        "es": "Reino Unido",
+        "ja": "イギリス"
+      }
+    },
+    {
+      "code": "ireland",
+      "name": "Ireland",
+      "cities": [
+        {
+          "code": "dublin",
+          "name": "Dublin",
+          "center": [
+            53.3493795,
+            -6.2605593
+          ],
+          "zoom": 13,
+          "data": "data/toilets/ireland/dublin.geojson",
+          "osm_relation": 1109531,
+          "count": 97,
+          "names": {
+            "zh": "都柏林",
+            "es": "Dublín",
+            "ja": "ダブリン"
+          }
+        }
+      ],
+      "names": {
+        "zh": "爱尔兰",
+        "es": "Irlanda",
+        "ja": "アイルランド"
+      }
     }
   ]
 }

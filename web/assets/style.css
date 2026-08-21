@@ -71,6 +71,54 @@ body {
 }
 .nav-cta:hover { text-decoration: none !important; transform: translateY(-1px); }
 
+/* language switcher */
+.lang-switcher { position: relative; display: flex; align-items: center; }
+.lang-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  border-radius: 9px;
+}
+.lang-btn img {
+  width: 30px;
+  height: 30px;
+  display: block;
+  transition: transform 0.18s ease, opacity 0.18s ease;
+}
+.lang-btn:hover img,
+.lang-btn[aria-expanded="true"] img {
+  transform: translateY(-2px);
+  opacity: 0.85;
+}
+.lang-menu {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 10px);
+  min-width: 138px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 12px 32px rgba(7, 58, 66, 0.22);
+  padding: 6px;
+  display: none;
+  z-index: 2000;
+}
+.lang-menu.open { display: block; }
+.lang-option {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  padding: 9px 14px;
+  border-radius: 8px;
+  font-size: 14px;
+  color: var(--ink);
+  cursor: pointer;
+}
+.lang-option:hover { background: var(--brand-softer); }
+.lang-option.active { color: var(--brand); font-weight: 700; }
+
 /* ---------- hero ---------- */
 .hero {
   background: linear-gradient(180deg, var(--brand-light) 0%, var(--brand-softer) 100%);

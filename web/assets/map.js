@@ -1,6 +1,7 @@
 /* FindToilet — map page logic
  * Loads a city's GeoJSON and renders toilets on a Leaflet map.
- * Toilet data © OpenStreetMap contributors (ODbL).
+ * Toilet data © OpenStreetMap contributors (ODbL); UK: Toilet Map (CC BY 4.0).
+ * UI strings via i18n.js (en/zh/es/ja).
  */
 
 const MARKER_COLORS = {
@@ -9,6 +10,8 @@ const MARKER_COLORS = {
   unknown: '#94A3B8', // slate
   code: '#0F6773',    // brand teal — has door code
 };
+
+const REPORT_URL = 'https://github.com/Jaime-Gu/findtoilet/issues/new';
 
 function markerColor(props) {
   if (props.password) return MARKER_COLORS.code;
@@ -36,9 +39,9 @@ function esc(s) {
 }
 
 function feeBadge(p) {
-  if (p.fee === 'no') return '<span class="badge badge-free">Free</span>';
-  if (p.fee === 'yes') return `<span class="badge badge-paid">Paid${p.charge ? ' · ' + esc(p.charge) : ''}</span>`;
-  return '<span class="badge badge-unknown">Fee unknown</span>';
+  if (p.fee === 'no') return `<span class="badge badge-free">${t('popup.free')}</span>`;
+  if (p.fee === 'yes') return `<span class="badge badge-paid">${t('popup.paid')}${p.charge ? ' · ' + esc(p.charge) : ''}</span>`;
+  return `<span class="badge badge-unknown">${t('popup.feeUnknown')}</span>`;
 }
 
 function popupHtml(f) {
@@ -46,25 +49,25 @@ function popupHtml(f) {
   const [lng, lat] = f.geometry.coordinates;
   const rows = [];
 
-  if (p.wheelchair === 'yes') rows.push('<div class="popup-row">♿ Wheelchair accessible</div>');
-  else if (p.wheelchair === 'no') rows.push('<div class="popup-row popup-muted">♿ Not wheelchair accessible</div>');
+  if (p.wheelchair === 'yes') rows.push(`<div class="popup-row">${t('popup.wheelchairYes')}</div>`);
+  else if (p.wheelchair === 'no') rows.push(`<div class="popup-row popup-muted">${t('popup.wheelchairNo')}</div>`);
   if (p.opening_hours) rows.push(`<div class="popup-row">🕒 ${esc(p.opening_hours)}</div>`);
-  if (p.operator) rows.push(`<div class="popup-row popup-muted">Operated by ${esc(p.operator)}</div>`);
+  if (p.operator) rows.push(`<div class="popup-row popup-muted">${tf('popup.operator', { name: esc(p.operator) })}</div>`);
 
   const codeBlock = p.password
     ? `<div class="door-code">
-         <span class="door-code-label">🔑 Door code</span>
+         <span class="door-code-label">${t('popup.doorCode')}</span>
          <span class="door-code-value">${esc(p.password)}</span>
-         ${p.code_confirmed_at ? `<span class="door-code-meta">confirmed ${esc(p.code_confirmed_at)}</span>` : ''}
+         ${p.code_confirmed_at ? `<span class="door-code-meta">${tf('popup.confirmed', { date: esc(p.code_confirmed_at) })}</span>` : ''}
        </div>`
-    : `<div class="door-code door-code-empty">🔑 Door code unknown — know it? Hit “Report / update”.</div>`;
+    : `<div class="door-code door-code-empty">${t('popup.doorCodeUnknown')}</div>`;
 
   const gmaps = `https://www.google.com/maps/dir/?api=1&destination=${lat},${lng}`;
   const amaps = `https://maps.apple.com/?daddr=${lat},${lng}`;
 
   return `
     <div class="popup">
-      <div class="popup-title">${p.name ? esc(p.name) : 'Public toilet'}</div>
+      <div class="popup-title">${p.name ? esc(p.name) : t('popup.title')}</div>
       <div class="popup-badges">${feeBadge(p)}</div>
       ${rows.join('')}
       ${codeBlock}
@@ -72,7 +75,7 @@ function popupHtml(f) {
         <a class="btn btn-google" href="${gmaps}" target="_blank" rel="noopener">Google Maps</a>
         <a class="btn btn-apple" href="${amaps}" target="_blank" rel="noopener">Apple Maps</a>
       </div>
-      <a class="report-link" href="https://github.com/" target="_blank" rel="noopener">✏️ Report / update this toilet</a>
+      <a class="report-link" href="${REPORT_URL}" target="_blank" rel="noopener">${t('popup.report')}</a>
     </div>`;
 }
 
@@ -83,7 +86,7 @@ async function resolveCity() {
   for (const country of index.countries) {
     for (const city of country.cities) {
       if (`${country.code}/${city.code}` === param) {
-        return { city: { ...city, countryName: country.name, dataPath: `../${city.data}` }, index };
+        return { city: { ...city, dataPath: `../${city.data}` }, country, index };
       }
     }
   }
@@ -91,9 +94,13 @@ async function resolveCity() {
 }
 
 (async () => {
-  const { city, index } = await resolveCity();
-  document.getElementById('map-city').textContent = `${city.name}, ${city.countryName}`;
-  document.title = `FindToilet — ${city.name}`;
+  applyI18n();
+  // popups are pre-built with the active language — simplest correct refresh is a reload
+  document.addEventListener('ft-langchange', () => location.reload());
+
+  const { city, country, index } = await resolveCity();
+  document.getElementById('map-city').textContent = `${localizedName(city)}, ${localizedName(country)}`;
+  document.title = `FindToilet — ${localizedName(city)}`;
 
   const map = L.map('map', { zoomControl: true }).setView(city.center, Number(new URLSearchParams(location.search).get('zoom')) || city.zoom);
 
@@ -148,16 +155,16 @@ async function resolveCity() {
   // City overview: zoomed out, show one count bubble per city across Europe;
   // clicking a bubble jumps to that city's map.
   const cityLayer = L.layerGroup();
-  for (const country of index.countries) {
-    for (const c of country.cities) {
-      if (!c.count) continue;
+  for (const c of index.countries) {
+    for (const cty of c.cities) {
+      if (!cty.count) continue;
       const icon = L.divIcon({
         className: 'city-bubble-anchor',
-        html: `<div class="city-bubble"><strong>${c.count}</strong><span>${esc(c.name)}</span></div>`,
+        html: `<div class="city-bubble"><strong>${cty.count}</strong><span>${esc(localizedName(cty))}</span></div>`,
         iconSize: [0, 0],
       });
-      L.marker(c.center, { icon })
-        .on('click', () => { location.href = `map.html?city=${country.code}/${c.code}`; })
+      L.marker(cty.center, { icon })
+        .on('click', () => { location.href = `map.html?city=${c.code}/${cty.code}`; })
         .addTo(cityLayer);
     }
   }
@@ -175,7 +182,7 @@ async function resolveCity() {
   toggleOverview();
 
   document.getElementById('map-count').textContent =
-    `${data.features.length} toilets · ${counts.free} free · ${counts.paid} paid`;
+    tf('map.stats', { n: data.features.length, f: counts.free, p: counts.paid });
 
   document.getElementById('locate-btn').addEventListener('click', () => {
     map.locate({ setView: true, maxZoom: 16 });
@@ -185,7 +192,7 @@ async function resolveCity() {
       radius: 8, color: '#0A4E58', weight: 3, fillColor: '#0F6773', fillOpacity: 0.6,
     }).addTo(map);
   });
-  map.on('locationerror', () => alert('Could not get your location. Check browser permissions.'));
+  map.on('locationerror', () => alert(t('error.location')));
 })().catch(err => {
   document.getElementById('map-city').textContent = `Error: ${err.message}`;
 });

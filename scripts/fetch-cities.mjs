@@ -15,19 +15,34 @@ import { readFileSync, writeFileSync } from 'node:fs';
 const execFileP = promisify(execFile);
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
-// 10 major European mainland tourist cities (UK intentionally excluded for now)
-const CITIES = [
+// European cities (OSM source). Run with city codes to fetch a subset:
+//   node scripts/fetch-cities.mjs milan naples
+const ALL_CITIES = [
   { code: 'rome',      name: 'Rome',      country: 'italy',       countryName: 'Italy',        q: 'Rome, Italy' },
+  { code: 'milan',     name: 'Milan',     country: 'italy',       countryName: 'Italy',        q: 'Milan, Italy' },
+  { code: 'naples',    name: 'Naples',    country: 'italy',       countryName: 'Italy',        q: 'Naples, Italy' },
   { code: 'barcelona', name: 'Barcelona', country: 'spain',       countryName: 'Spain',        q: 'Barcelona, Spain' },
   { code: 'madrid',    name: 'Madrid',    country: 'spain',       countryName: 'Spain',        q: 'Madrid, Spain' },
   { code: 'amsterdam', name: 'Amsterdam', country: 'netherlands', countryName: 'Netherlands',  q: 'Amsterdam, Netherlands' },
+  { code: 'the-hague', name: 'The Hague', country: 'netherlands', countryName: 'Netherlands',  q: 'The Hague, Netherlands' },
   { code: 'berlin',    name: 'Berlin',    country: 'germany',     countryName: 'Germany',      q: 'Berlin, Germany' },
+  { code: 'cologne',   name: 'Cologne',   country: 'germany',     countryName: 'Germany',      q: 'Cologne, Germany' },
   { code: 'prague',    name: 'Prague',    country: 'czechia',     countryName: 'Czechia',      q: 'Prague, Czechia' },
   { code: 'vienna',    name: 'Vienna',    country: 'austria',     countryName: 'Austria',      q: 'Vienna, Austria' },
   { code: 'brussels',  name: 'Brussels',  country: 'belgium',     countryName: 'Belgium',      q: 'Brussels, Belgium' },
   { code: 'lisbon',    name: 'Lisbon',    country: 'portugal',    countryName: 'Portugal',     q: 'Lisbon, Portugal' },
   { code: 'budapest',  name: 'Budapest',  country: 'hungary',     countryName: 'Hungary',      q: 'Budapest, Hungary' },
+  { code: 'marseille', name: 'Marseille', country: 'france',      countryName: 'France',       q: 'Marseille, France' },
+  { code: 'dublin',    name: 'Dublin',    country: 'ireland',     countryName: 'Ireland',      q: 'Dublin, Ireland' },
 ];
+
+const wanted = process.argv.slice(2);
+const CITIES = wanted.length ? ALL_CITIES.filter(c => wanted.includes(c.code)) : ALL_CITIES;
+if (wanted.length && CITIES.length !== wanted.length) {
+  const found = new Set(CITIES.map(c => c.code));
+  console.error('Unknown city codes:', wanted.filter(w => !found.has(w)).join(', '));
+  process.exit(1);
+}
 
 async function lookupRelation(q) {
   const url = `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(q)}&format=jsonv2&limit=5`;
