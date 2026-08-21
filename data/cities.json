@@ -1,0 +1,278 @@
+{
+  "brand": {
+    "name": "FindToilet",
+    "tagline": "Free & paid public toilets across Europe — community maintained."
+  },
+  "countries": [
+    {
+      "code": "france",
+      "name": "France",
+      "cities": [
+        {
+          "code": "paris",
+          "name": "Paris",
+          "center": [
+            48.8566,
+            2.3522
+          ],
+          "zoom": 13,
+          "data": "data/toilets/france/paris.geojson",
+          "osm_relation": 71525,
+          "count": 931
+        }
+      ]
+    },
+    {
+      "code": "italy",
+      "name": "Italy",
+      "cities": [
+        {
+          "code": "rome",
+          "name": "Rome",
+          "center": [
+            41.8933203,
+            12.4829321
+          ],
+          "zoom": 13,
+          "data": "data/toilets/italy/rome.geojson",
+          "osm_relation": 41485,
+          "count": 284
+        }
+      ]
+    },
+    {
+      "code": "spain",
+      "name": "Spain",
+      "cities": [
+        {
+          "code": "barcelona",
+          "name": "Barcelona",
+          "center": [
+            41.3825802,
+            2.177073
+          ],
+          "zoom": 13,
+          "data": "data/toilets/spain/barcelona.geojson",
+          "osm_relation": 347950,
+          "count": 290
+        },
+        {
+          "code": "madrid",
+          "name": "Madrid",
+          "center": [
+            40.416782,
+            -3.703507
+          ],
+          "zoom": 13,
+          "data": "data/toilets/spain/madrid.geojson",
+          "osm_relation": 5326784,
+          "count": 307
+        }
+      ]
+    },
+    {
+      "code": "netherlands",
+      "name": "Netherlands",
+      "cities": [
+        {
+          "code": "amsterdam",
+          "name": "Amsterdam",
+          "center": [
+            52.3730796,
+            4.8924534
+          ],
+          "zoom": 13,
+          "data": "data/toilets/netherlands/amsterdam.geojson",
+          "osm_relation": 271110,
+          "count": 161
+        }
+      ]
+    },
+    {
+      "code": "germany",
+      "name": "Germany",
+      "cities": [
+        {
+          "code": "berlin",
+          "name": "Berlin",
+          "center": [
+            52.5173885,
+            13.3951309
+          ],
+          "zoom": 13,
+          "data": "data/toilets/germany/berlin.geojson",
+          "osm_relation": 62422,
+          "count": 1104
+        }
+      ]
+    },
+    {
+      "code": "czechia",
+      "name": "Czechia",
+      "cities": [
+        {
+          "code": "prague",
+          "name": "Prague",
+          "center": [
+            50.0874654,
+            14.4212535
+          ],
+          "zoom": 13,
+          "data": "data/toilets/czechia/prague.geojson",
+          "osm_relation": 435514,
+          "count": 414
+        }
+      ]
+    },
+    {
+      "code": "austria",
+      "name": "Austria",
+      "cities": [
+        {
+          "code": "vienna",
+          "name": "Vienna",
+          "center": [
+            48.2083537,
+            16.3725042
+          ],
+          "zoom": 13,
+          "data": "data/toilets/austria/vienna.geojson",
+          "osm_relation": 109166,
+          "count": 749
+        }
+      ]
+    },
+    {
+      "code": "belgium",
+      "name": "Belgium",
+      "cities": [
+        {
+          "code": "brussels",
+          "name": "Brussels",
+          "center": [
+            50.8467372,
+            4.352493
+          ],
+          "zoom": 13,
+          "data": "data/toilets/belgium/brussels.geojson",
+          "osm_relation": 58274,
+          "count": 98
+        }
+      ]
+    },
+    {
+      "code": "hungary",
+      "name": "Hungary",
+      "cities": [
+        {
+          "code": "budapest",
+          "name": "Budapest",
+          "center": [
+            47.4978789,
+            19.0402383
+          ],
+          "zoom": 13,
+          "data": "data/toilets/hungary/budapest.geojson",
+          "osm_relation": 1244004,
+          "count": 619
+        }
+      ]
+    },
+    {
+      "code": "portugal",
+      "name": "Portugal",
+      "cities": [
+        {
+          "code": "lisbon",
+          "name": "Lisbon",
+          "center": [
+            38.7077507,
+            -9.1365919
+          ],
+          "zoom": 13,
+          "data": "data/toilets/portugal/lisbon.geojson",
+          "osm_relation": 5400890,
+          "count": 267
+        }
+      ]
+    },
+    {
+      "code": "uk",
+      "name": "United Kingdom",
+      "cities": [
+        {
+          "code": "london",
+          "name": "London",
+          "center": [
+            51.5074,
+            -0.1278
+          ],
+          "zoom": 12,
+          "data": "data/toilets/uk/london.geojson",
+          "osm_relation": null,
+          "count": 2216
+        },
+        {
+          "code": "manchester",
+          "name": "Manchester",
+          "center": [
+            53.4808,
+            -2.2426
+          ],
+          "zoom": 12,
+          "data": "data/toilets/uk/manchester.geojson",
+          "osm_relation": null,
+          "count": 166
+        },
+        {
+          "code": "edinburgh",
+          "name": "Edinburgh",
+          "center": [
+            55.9533,
+            -3.1883
+          ],
+          "zoom": 12,
+          "data": "data/toilets/uk/edinburgh.geojson",
+          "osm_relation": null,
+          "count": 124
+        },
+        {
+          "code": "birmingham",
+          "name": "Birmingham",
+          "center": [
+            52.4862,
+            -1.8904
+          ],
+          "zoom": 12,
+          "data": "data/toilets/uk/birmingham.geojson",
+          "osm_relation": null,
+          "count": 127
+        },
+        {
+          "code": "bristol",
+          "name": "Bristol",
+          "center": [
+            51.4545,
+            -2.5879
+          ],
+          "zoom": 12,
+          "data": "data/toilets/uk/bristol.geojson",
+          "osm_relation": null,
+          "count": 222
+        },
+        {
+          "code": "glasgow",
+          "name": "Glasgow",
+          "center": [
+            55.8642,
+            -4.2518
+          ],
+          "zoom": 12,
+          "data": "data/toilets/uk/glasgow.geojson",
+          "osm_relation": null,
+          "count": 113
+        }
+      ]
+    }
+  ]
+}

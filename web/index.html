@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FindToilet — Free &amp; paid public toilets across Europe</title>
+  <meta name="description" content="FindToilet maps free and paid public toilets (with community-shared door codes) across Europe. Open source, community maintained." />
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">
+        <img class="logo-img" src="assets/logo-mark.png" alt="FindToilet logo" />
+        <span class="logo-text">Find<em>Toilet</em></span>
+      </a>
+      <nav class="site-nav">
+        <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+        <a class="nav-cta" href="#contribute">Contribute</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Never hunt for a toilet in Europe again.</h1>
+        <p class="hero-sub">
+          Free &amp; paid public toilets — with community-shared door codes —
+          across Europe. Open data, open source, community maintained.
+        </p>
+        <div class="hero-stats" id="hero-stats"></div>
+      </div>
+    </section>
+
+    <section class="container" id="browse">
+      <h2 class="section-title">Browse by country</h2>
+      <div id="country-list" class="country-list">
+        <p class="loading">Loading…</p>
+      </div>
+    </section>
+
+    <section class="container about-strip" id="contribute">
+      <div class="about-card">
+        <h3>🔑 Know a door code?</h3>
+        <p>Paid toilets and cafés in Europe often lock their restrooms with a code.
+           FindToilet lets the community share and confirm those codes — open a toilet
+           on the map and hit “Report / update”.</p>
+      </div>
+      <div class="about-card">
+        <h3>🌍 Open data</h3>
+        <p>Toilet locations come from OpenStreetMap (ODbL). Community contributions
+           (codes, corrections, new toilets) live in this repo and are reviewed in the open.</p>
+      </div>
+      <div class="about-card">
+        <h3>🧭 One-tap navigation</h3>
+        <p>Every toilet links straight into Google Maps or Apple Maps for walking directions.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>FindToilet — open source. Toilet data ©
+        <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL).
+        Contains data from <a href="https://www.toiletmap.org.uk/dataset" target="_blank" rel="noopener">the Toilet Map</a> © 2025 – CC BY 4.0.</p>
+    </div>
+  </footer>
+
+  <script>
+    (async () => {
+      const res = await fetch('../data/cities.json');
+      const index = await res.json();
+
+      const list = document.getElementById('country-list');
+      list.innerHTML = '';
+
+      let cityCount = 0;
+      for (const country of index.countries) {
+        cityCount += country.cities.length;
+        const card = document.createElement('div');
+        card.className = 'country-card';
+        card.innerHTML = `
+          <h3>${country.name}</h3>
+          <div class="city-list">
+            ${country.cities.map(c => `
+              <a class="city-chip" href="map.html?city=${country.code}/${c.code}">
+                <span class="city-name">${c.name}</span>
+                <span class="city-arrow">→</span>
+              </a>`).join('')}
+          </div>`;
+        list.appendChild(card);
+      }
+
+      document.getElementById('hero-stats').innerHTML =
+        `<span class="stat"><strong>${index.countries.length}</strong> ${index.countries.length === 1 ? 'country' : 'countries'}</span>
+         <span class="stat-dot">·</span>
+         <span class="stat"><strong>${cityCount}</strong> ${cityCount === 1 ? 'city' : 'cities'}</span>
+         <span class="stat-dot">·</span>
+         <span class="stat">more coming</span>`;
+    })().catch(err => {
+      document.getElementById('country-list').innerHTML =
+        `<p class="loading">Failed to load city index: ${err.message}</p>`;
+    });
+  </script>
+</body>
+</html>

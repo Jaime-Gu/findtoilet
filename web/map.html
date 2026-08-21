@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FindToilet — Map</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+</head>
+<body class="map-page">
+  <header class="site-header map-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">
+        <img class="logo-img" src="assets/logo-mark.png" alt="FindToilet logo" />
+        <span class="logo-text">Find<em>Toilet</em></span>
+      </a>
+      <nav class="site-nav">
+        <a href="index.html">← All cities</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="map-toolbar">
+    <span class="map-city" id="map-city">Loading…</span>
+    <span class="map-count" id="map-count"></span>
+    <div class="legend">
+      <span class="legend-item"><i class="dot dot-free"></i>Free</span>
+      <span class="legend-item"><i class="dot dot-paid"></i>Paid</span>
+      <span class="legend-item"><i class="dot dot-unknown"></i>Unknown</span>
+      <span class="legend-item"><i class="dot dot-code"></i>Door code</span>
+    </div>
+    <button id="locate-btn" class="locate-btn" title="Find toilets near me">📍 Near me</button>
+  </div>
+
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+          integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+  <script src="assets/map.js"></script>
+</body>
+</html>
