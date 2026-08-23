@@ -31,15 +31,17 @@
   </header>
 
   <div class="map-toolbar">
-    <span class="map-city" id="map-city">Loading…</span>
-    <span class="map-count" id="map-count"></span>
+    <div class="map-title">
+      <span class="map-city" id="map-city">Loading…</span>
+      <span class="map-count" id="map-count"></span>
+    </div>
+    <button id="locate-btn" class="locate-btn" data-i18n="locate">📍 Near me</button>
     <div class="legend">
       <span class="legend-item"><i class="dot dot-free"></i><span data-i18n="legend.free">Free</span></span>
       <span class="legend-item"><i class="dot dot-paid"></i><span data-i18n="legend.paid">Paid</span></span>
       <span class="legend-item"><i class="dot dot-unknown"></i><span data-i18n="legend.unknown">Unknown</span></span>
       <span class="legend-item"><i class="dot dot-code"></i><span data-i18n="legend.code">Door code</span></span>
     </div>
-    <button id="locate-btn" class="locate-btn" data-i18n="locate">📍 Near me</button>
   </div>
 
   <div id="map"></div>

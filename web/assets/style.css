@@ -220,7 +220,9 @@ body {
 }
 .map-city { font-weight: 700; color: var(--brand-deep); font-size: 16px; }
 .map-count { color: var(--muted); font-size: 13px; }
-.legend { display: flex; gap: 12px; margin-left: auto; flex-wrap: wrap; }
+.map-title { display: flex; align-items: baseline; gap: 12px; order: 1; min-width: 0; }
+.legend { display: flex; gap: 12px; margin-left: auto; flex-wrap: wrap; order: 2; }
+.locate-btn { order: 3; }
 .legend-item {
   display: inline-flex;
   align-items: center;
@@ -364,6 +366,48 @@ body {
 .marker-cluster-large div { background-color: var(--brand-deep); color: #fff; font-weight: 700; }
 
 @media (max-width: 640px) {
-  .legend { margin-left: 0; width: 100%; order: 3; }
-  .hero { padding: 44px 0 36px; }
+  /* global: never let anything push the page wider than the viewport */
+  body { overflow-x: hidden; }
+
+  /* header: logo + Contribute + language pill; GitHub text link is redundant on mobile */
+  .header-inner { padding: 10px 0; }
+  .logo-text { font-size: 19px; }
+  .site-nav { gap: 10px; }
+  .site-nav a:not(.nav-cta) { display: none; }
+  .nav-cta {
+    padding: 7px 13px;
+    font-size: 13.5px;
+    white-space: nowrap;
+  }
+
+  /* hero */
+  .hero { padding: 40px 0 32px; }
+  .hero-sub { font-size: 15px; }
+
+  /* map toolbar: row1 = title+count & locate, row2 = scrollable legend */
+  .map-toolbar { gap: 8px; padding: 8px 3vw; }
+  .map-title {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1px;
+    flex: 1;
+  }
+  .map-city { font-size: 15px; }
+  .map-count { font-size: 11.5px; }
+  .legend {
+    order: 3;
+    width: 100%;
+    margin-left: 0;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 2px;
+    -webkit-overflow-scrolling: touch;
+  }
+  .locate-btn { padding: 7px 12px; font-size: 12.5px; white-space: nowrap; }
+
+  /* leaflet popup: fit small screens */
+  .leaflet-popup-content-wrapper { max-width: 84vw; }
+  .leaflet-popup-content { margin: 12px 14px; line-height: 1.45; }
+  .popup { min-width: 0; }
 }

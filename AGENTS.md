@@ -15,6 +15,8 @@
 - 厕所数据来源 OpenStreetMap（ODbL），Overpass 拉取用 `scripts/fetch-osm-toilets.mjs`（Node fetch 会被 Overpass 拦 406，脚本内走 curl）
 - 新增城市：改 `data/cities.json` + 跑拉取脚本即可，无需改页面代码
 - 底图：默认 CARTO Positron（`light_all`，契合简洁风），右下角可切 Voyager / OSM Standard；底图瓦片为联网调用，只有 `data/` 下 GeoJSON 是本地静态文件
+- 响应式（≤640px）：隐藏 GitHub 文字链、Contribute 胶囊 nowrap、地图工具栏标题计数竖排+图例横向滚动、Leaflet 弹窗限宽 84vw、body `overflow-x:hidden` 兜底
+- ⚠️ 手机端测试：无头 Chrome `--window-size` 最小宽度 500px，无法真测 390px；用 `/tmp/mobileshot/shot.js`（playwright-core + 系统 Chrome 设备模拟）截图验证
 - 本地预览：项目根目录起静态服务，访问 `/web/`（页面以 `../data/` 相对路径取数据）
 
 ## 目录
