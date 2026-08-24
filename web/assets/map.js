@@ -53,6 +53,8 @@ function popupHtml(f) {
   else if (p.wheelchair === 'no') rows.push(`<div class="popup-row popup-muted">${t('popup.wheelchairNo')}</div>`);
   if (p.opening_hours) rows.push(`<div class="popup-row">🕒 ${esc(p.opening_hours)}</div>`);
   if (p.operator) rows.push(`<div class="popup-row popup-muted">${tf('popup.operator', { name: esc(p.operator) })}</div>`);
+  if (p.cleanliness === 'clean') rows.push(`<div class="popup-row">${t('popup.clean')}</div>`);
+  if (p.description) rows.push(`<div class="popup-row popup-muted">${esc(p.description)}</div>`);
 
   const codeBlock = p.password
     ? `<div class="door-code">
@@ -61,6 +63,10 @@ function popupHtml(f) {
          ${p.code_confirmed_at ? `<span class="door-code-meta">${tf('popup.confirmed', { date: esc(p.code_confirmed_at) })}</span>` : ''}
        </div>`
     : `<div class="door-code door-code-empty">${t('popup.doorCodeUnknown')}</div>`;
+
+  const sourceLine = p.source === 'xhs'
+    ? `<div class="popup-row popup-muted popup-source">${t('popup.sourceXhs')}</div>`
+    : '';
 
   const gmaps = `https://www.google.com/maps/dir/?api=1&destination=${lat},${lng}`;
   const amaps = `https://maps.apple.com/?daddr=${lat},${lng}`;
@@ -71,6 +77,7 @@ function popupHtml(f) {
       <div class="popup-badges">${feeBadge(p)}</div>
       ${rows.join('')}
       ${codeBlock}
+      ${sourceLine}
       <div class="popup-actions">
         <a class="btn btn-google" href="${gmaps}" target="_blank" rel="noopener">Google Maps</a>
         <a class="btn btn-apple" href="${amaps}" target="_blank" rel="noopener">Apple Maps</a>

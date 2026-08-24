@@ -34,6 +34,14 @@ const ALL_CITIES = [
   { code: 'budapest',  name: 'Budapest',  country: 'hungary',     countryName: 'Hungary',      q: 'Budapest, Hungary' },
   { code: 'marseille', name: 'Marseille', country: 'france',      countryName: 'France',       q: 'Marseille, France' },
   { code: 'dublin',    name: 'Dublin',    country: 'ireland',     countryName: 'Ireland',      q: 'Dublin, Ireland' },
+  { code: 'florence',  name: 'Florence',  country: 'italy',       countryName: 'Italy',        q: 'Florence, Italy' },
+  { code: 'venice',    name: 'Venice',    country: 'italy',       countryName: 'Italy',        q: 'Venice, Italy' },
+  { code: 'lyon',      name: 'Lyon',      country: 'france',      countryName: 'France',       q: 'Lyon, France' },
+  { code: 'seville',   name: 'Seville',   country: 'spain',       countryName: 'Spain',        q: 'Seville, Spain' },
+  { code: 'la-spezia', name: 'La Spezia', country: 'italy',       countryName: 'Italy',        q: 'La Spezia, Italy' },
+  { code: 'versailles', name: 'Versailles', country: 'france',    countryName: 'France',       q: 'Versailles, France' },
+  { code: 'valencia',  name: 'Valencia',  country: 'spain',       countryName: 'Spain',        q: 'Valencia, Spain' },
+  { code: 'toledo',    name: 'Toledo',    country: 'spain',       countryName: 'Spain',        q: 'Toledo, Spain' },
 ];
 
 const wanted = process.argv.slice(2);

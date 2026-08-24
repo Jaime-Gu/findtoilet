@@ -53,6 +53,8 @@ const I18N = {
     'list.locating': '📍 Locating…',
     'filter.all': 'All',
     'filter.wheelchair': 'Wheelchair',
+    'popup.clean': '🧹 Reportedly clean',
+    'popup.sourceXhs': 'via Xiaohongshu community · verify before use',
   },
   zh: {
     'nav.contribute': '参与贡献',
@@ -95,6 +97,8 @@ const I18N = {
     'list.locating': '📍 定位中…',
     'filter.all': '全部',
     'filter.wheelchair': '无障碍',
+    'popup.clean': '🧹 网友评价干净',
+    'popup.sourceXhs': '来自小红书社区 · 使用前请自行核实',
   },
   es: {
     'nav.contribute': 'Contribuir',
@@ -137,6 +141,8 @@ const I18N = {
     'list.locating': '📍 Localizando…',
     'filter.all': 'Todos',
     'filter.wheelchair': 'Accesible',
+    'popup.clean': '🧹 Según reportes, limpio',
+    'popup.sourceXhs': 'vía comunidad Xiaohongshu · verifica antes de usar',
   },
   ja: {
     'nav.contribute': '貢献する',
@@ -179,6 +185,8 @@ const I18N = {
     'list.locating': '📍 測位中…',
     'filter.all': 'すべて',
     'filter.wheelchair': '車椅子対応',
+    'popup.clean': '🧹 きれいとの報告あり',
+    'popup.sourceXhs': 'Xiaohongshu コミュニティ提供 · 利用前にご確認ください',
   },
   ko: {
     'nav.contribute': '기여하기',
@@ -221,6 +229,8 @@ const I18N = {
     'list.locating': '📍 위치 확인 중…',
     'filter.all': '전체',
     'filter.wheelchair': '휠체어 가능',
+    'popup.clean': '🧹 깨끗하다는 후기 있음',
+    'popup.sourceXhs': 'Xiaohongshu 커뮤니티 제공 · 이용 전 확인 필요',
   },
   fr: {
     'nav.contribute': 'Contribuer',
@@ -263,6 +273,8 @@ const I18N = {
     'list.locating': '📍 Localisation…',
     'filter.all': 'Tous',
     'filter.wheelchair': 'Accessible',
+    'popup.clean': '🧹 Réputé propre',
+    'popup.sourceXhs': 'via communauté Xiaohongshu · à vérifier avant usage',
   },
 };
 

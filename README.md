@@ -21,11 +21,11 @@ Public toilets in much of Europe are paid (€0.5–2) or locked behind door cod
 
 ## Current coverage
 
-**12 countries · 23 cities · 9,070 toilets**
+**12 countries · 31 cities · 9,980 toilets** — including **121 community door-code points** sourced from Xiaohongshu posts (with confirmation dates and rotation notes).
 
-- 🇫🇷 France: Paris, Marseille
-- 🇮🇹 Italy: Rome, Milan, Naples
-- 🇪🇸 Spain: Barcelona, Madrid
+- 🇫🇷 France: Paris, Marseille, Lyon, Versailles
+- 🇮🇹 Italy: Rome, Milan, Naples, Venice, Florence, La Spezia
+- 🇪🇸 Spain: Barcelona, Madrid, Valencia, Seville, Toledo
 - 🇳🇱 Netherlands: Amsterdam, The Hague
 - 🇩🇪 Germany: Berlin, Cologne
 - 🇨🇿 Czechia: Prague · 🇦🇹 Austria: Vienna · 🇧🇪 Belgium: Brussels
@@ -51,6 +51,9 @@ node scripts/fetch-cities.mjs milan naples
 
 # refresh UK cities from the Toilet Map dataset
 node scripts/import-toiletmap-uk.mjs
+
+# merge community contributions (door codes etc.) into city data
+node scripts/merge-community.mjs
 
 # preview locally (serve the repo root, pages live under web/)
 python3 -m http.server 8765

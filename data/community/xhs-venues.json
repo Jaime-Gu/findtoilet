@@ -1,0 +1,3148 @@
+[
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    2.333468,
+    48.867454
+   ]
+  },
+  "properties": {
+   "id": "xhs/pr-t-manger-op-ra",
+   "source": "xhs",
+   "name": "Prêt à Manger (Opéra)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "连锁轻食店，需消费",
+   "password": "CB 2024",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "france/paris"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    2.341475,
+    48.861912
+   ]
+  },
+  "properties": {
+   "id": "xhs/pr-t-manger-louvre",
+   "source": "xhs",
+   "name": "Prêt à Manger (Louvre)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "连锁轻食店",
+   "password": "C1705",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "france/paris"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    2.341005,
+    48.84711
+   ]
+  },
+  "properties": {
+   "id": "xhs/mcdonald-s-panth-on",
+   "source": "xhs",
+   "name": "McDonald's (Panthéon)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "45A69",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "france/paris"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    2.333698,
+    48.863425
+   ]
+  },
+  "properties": {
+   "id": "xhs/mcdonald-s-louvre",
+   "source": "xhs",
+   "name": "McDonald's (Louvre)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "2026-07 小红书评论称门锁损坏可直接进，卫生一般",
+   "password": "C2358",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "france/paris"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    2.324733,
+    48.844502
+   ]
+  },
+  "properties": {
+   "id": "xhs/mcdonald-s-rue-de-rennes",
+   "source": "xhs",
+   "name": "McDonald's (Rue de Rennes)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "07213",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "france/paris"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    2.2932,
+    48.8576
+   ]
+  },
+  "properties": {
+   "id": "xhs/starbucks-near-eiffel-tower",
+   "source": "xhs",
+   "name": "Starbucks (near Eiffel Tower)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "272437",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "france/paris"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    2.325,
+    48.876
+   ]
+  },
+  "properties": {
+   "id": "xhs/starbucks-saint-lazare",
+   "source": "xhs",
+   "name": "Starbucks (Saint-Lazare)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "C6789",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "france/paris"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    2.354881,
+    48.856836
+   ]
+  },
+  "properties": {
+   "id": "xhs/starbucks-saint-paul",
+   "source": "xhs",
+   "name": "Starbucks (Saint-Paul)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "近 Saint-Paul 地铁 1 号线，小红书评论 2026-07-24 提供",
+   "password": "1627",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "france/paris"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    2.3025,
+    48.8718
+   ]
+  },
+  "properties": {
+   "id": "xhs/burger-king-champs-lys-es",
+   "source": "xhs",
+   "name": "Burger King (Champs-Élysées)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "香街 Tiffany 后身；密码多次轮换，网友另记录 A3791B / BA9731AB",
+   "password": "AA25",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "france/paris"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    2.3254,
+    48.8766
+   ]
+  },
+  "properties": {
+   "id": "xhs/burger-king-saint-lazare",
+   "source": "xhs",
+   "name": "Burger King (Saint-Lazare)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "0122",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "france/paris"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    2.353207,
+    48.861405
+   ]
+  },
+  "properties": {
+   "id": "xhs/exki-near-centre-pompidou",
+   "source": "xhs",
+   "name": "EXKi (near Centre Pompidou)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "C25780",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "france/paris"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    2.332127,
+    48.873646
+   ]
+  },
+  "properties": {
+   "id": "xhs/galeries-lafayette-6f",
+   "source": "xhs",
+   "name": "Galeries Lafayette (6F)",
+   "fee": "no",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "商场 6 楼免费厕所",
+   "password": null,
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "france/paris"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    2.329051,
+    48.873887
+   ]
+  },
+  "properties": {
+   "id": "xhs/printemps-1f",
+   "source": "xhs",
+   "name": "Printemps (1F)",
+   "fee": "no",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "商场 1 楼免费厕所",
+   "password": null,
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "france/paris"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    2.3245,
+    48.8464
+   ]
+  },
+  "properties": {
+   "id": "xhs/le-bon-march",
+   "source": "xhs",
+   "name": "Le Bon Marché",
+   "fee": "no",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "商场免费厕所",
+   "password": null,
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "france/paris"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    2.3533,
+    48.8569
+   ]
+  },
+  "properties": {
+   "id": "xhs/bhv-marais-5f",
+   "source": "xhs",
+   "name": "BHV Marais (5F)",
+   "fee": "no",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "商场 5 楼免费厕所",
+   "password": null,
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "france/paris"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    2.342353,
+    48.859206
+   ]
+  },
+  "properties": {
+   "id": "xhs/la-samaritaine",
+   "source": "xhs",
+   "name": "La Samaritaine",
+   "fee": "no",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "商场免费厕所",
+   "password": null,
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "france/paris"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -0.133107,
+    51.510391
+   ]
+  },
+  "properties": {
+   "id": "xhs/five-guys-w1d-7dh-1f",
+   "source": "xhs",
+   "name": "Five Guys (W1D 7DH, 1F)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "小红书评价：很干净，有温水、洗手液、烘手器；二楼密码 4625",
+   "password": "9491",
+   "code_confirmed_at": null,
+   "cleanliness": "clean",
+   "city": "uk/london"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -0.1336,
+    51.5246
+   ]
+  },
+  "properties": {
+   "id": "xhs/ucl-main-library-ground-floor",
+   "source": "xhs",
+   "name": "UCL Main Library (Ground Floor)",
+   "fee": "no",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "7351",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "uk/london"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -0.122557,
+    51.511752
+   ]
+  },
+  "properties": {
+   "id": "xhs/shake-shack-covent-garden-1f",
+   "source": "xhs",
+   "name": "Shake Shack (Covent Garden, -1F)",
+   "fee": "no",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "无需密码，位置隐蔽，比较干净",
+   "password": null,
+   "code_confirmed_at": null,
+   "cleanliness": "clean",
+   "city": "uk/london"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -0.154627,
+    51.514583
+   ]
+  },
+  "properties": {
+   "id": "xhs/m-s-oxford-street",
+   "source": "xhs",
+   "name": "M&S (Oxford Street)",
+   "fee": "no",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "免费使用，无密码",
+   "password": null,
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "uk/london"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -0.152818,
+    51.514602
+   ]
+  },
+  "properties": {
+   "id": "xhs/selfridges-basement",
+   "source": "xhs",
+   "name": "Selfridges (Basement)",
+   "fee": "no",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "负一层免费厕所",
+   "password": null,
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "uk/london"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -0.140158,
+    51.513835
+   ]
+  },
+  "properties": {
+   "id": "xhs/liberty-basement",
+   "source": "xhs",
+   "name": "Liberty (Basement)",
+   "fee": "no",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "负一层厕所对外开放",
+   "password": null,
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "uk/london"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -0.145584,
+    51.494467
+   ]
+  },
+  "properties": {
+   "id": "xhs/burger-king-victoria-station",
+   "source": "xhs",
+   "name": "Burger King (Victoria Station)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "维多利亚火车站旁，交通枢纽",
+   "password": null,
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "uk/london"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -0.1575,
+    51.5138
+   ]
+  },
+  "properties": {
+   "id": "xhs/kfc-542-oxford-street",
+   "source": "xhs",
+   "name": "KFC (542 Oxford Street)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": null,
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "uk/london"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -0.136768,
+    51.516144
+   ]
+  },
+  "properties": {
+   "id": "xhs/kfc-the-plaza-120-oxford-street",
+   "source": "xhs",
+   "name": "KFC (The Plaza, 120 Oxford Street)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": null,
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "uk/london"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    9.188403,
+    45.464361
+   ]
+  },
+  "properties": {
+   "id": "xhs/mcdonald-s-duomo",
+   "source": "xhs",
+   "name": "McDonald's (Duomo)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "6977A",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "italy/milan"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    9.204739,
+    45.484081
+   ]
+  },
+  "properties": {
+   "id": "xhs/mcdonald-s-stazione-centrale",
+   "source": "xhs",
+   "name": "McDonald's (Stazione Centrale)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "车站二楼闸机站过去自动开门；旧密码 2324A",
+   "password": "6423",
+   "code_confirmed_at": "2026-01-15",
+   "cleanliness": null,
+   "city": "italy/milan"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    9.214517,
+    45.48374
+   ]
+  },
+  "properties": {
+   "id": "xhs/mcdonald-s-loreto",
+   "source": "xhs",
+   "name": "McDonald's (Loreto)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "2324",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "italy/milan"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    9.191912,
+    45.464963
+   ]
+  },
+  "properties": {
+   "id": "xhs/la-rinascente-4f-7f",
+   "source": "xhs",
+   "name": "la Rinascente (4F & 7F)",
+   "fee": "no",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "文艺复兴百货 4 楼和 7 楼免费厕所",
+   "password": null,
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "italy/milan"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    9.19087,
+    45.462903
+   ]
+  },
+  "properties": {
+   "id": "xhs/palazzo-reale-1f",
+   "source": "xhs",
+   "name": "Palazzo Reale (1F)",
+   "fee": "no",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "大教堂皇宫一楼免费厕所",
+   "password": null,
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "italy/milan"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    9.195135,
+    45.465254
+   ]
+  },
+  "properties": {
+   "id": "xhs/bershka-san-babila",
+   "source": "xhs",
+   "name": "Bershka (San Babila)",
+   "fee": "no",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": null,
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "italy/milan"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    12.481952,
+    41.9003
+   ]
+  },
+  "properties": {
+   "id": "xhs/mcdonald-s-trevi-fountain",
+   "source": "xhs",
+   "name": "McDonald's (Trevi Fountain)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "1626",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "italy/rome"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    12.458493,
+    41.903788
+   ]
+  },
+  "properties": {
+   "id": "xhs/mcdonald-s-st-peter-s",
+   "source": "xhs",
+   "name": "McDonald's (St. Peter's)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "7056A",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "italy/rome"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    12.486,
+    41.8925
+   ]
+  },
+  "properties": {
+   "id": "xhs/mcdonald-s-roman-forum",
+   "source": "xhs",
+   "name": "McDonald's (Roman Forum)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "密码为消费小票后四位",
+   "password": null,
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "italy/rome"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    12.483467,
+    41.904764
+   ]
+  },
+  "properties": {
+   "id": "xhs/mcdonald-s-spanish-steps-2f",
+   "source": "xhs",
+   "name": "McDonald's (Spanish Steps, 2F)",
+   "fee": "no",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "西班牙阶梯麦当劳二楼免费",
+   "password": null,
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "italy/rome"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    2.174663,
+    41.40476
+   ]
+  },
+  "properties": {
+   "id": "xhs/kfc-sagrada-fam-lia",
+   "source": "xhs",
+   "name": "KFC (Sagrada Família)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "楼下输一次密码，厕所门口需再输一次；另一网友记录为 2604#",
+   "password": "1975#",
+   "code_confirmed_at": "2026-08-11",
+   "cleanliness": null,
+   "city": "spain/barcelona"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    2.1743,
+    41.4038
+   ]
+  },
+  "properties": {
+   "id": "xhs/buenas-migas-sagrada-fam-lia",
+   "source": "xhs",
+   "name": "Buenas Migas (Sagrada Família)",
+   "fee": "no",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "圣家堂斜对面，免费用无人看守",
+   "password": null,
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "spain/barcelona"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -3.693519,
+    40.412165
+   ]
+  },
+  "properties": {
+   "id": "xhs/burger-king-prado-museum",
+   "source": "xhs",
+   "name": "Burger King (Prado Museum)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "1954",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "spain/madrid"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -3.676665,
+    40.424684
+   ]
+  },
+  "properties": {
+   "id": "xhs/mcdonald-s-goya-metro-2f",
+   "source": "xhs",
+   "name": "McDonald's (GOYA metro, 2F)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "0000A",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "spain/madrid"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -3.704493,
+    40.416485
+   ]
+  },
+  "properties": {
+   "id": "xhs/kfc-puerta-del-sol",
+   "source": "xhs",
+   "name": "KFC (Puerta del Sol)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "9620",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "spain/madrid"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -3.705063,
+    40.416981
+   ]
+  },
+  "properties": {
+   "id": "xhs/jollibee-city-centre-2f",
+   "source": "xhs",
+   "name": "Jollibee (city centre, 2F)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "2821",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "spain/madrid"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -3.715113,
+    40.417825
+   ]
+  },
+  "properties": {
+   "id": "xhs/royal-palace-of-madrid-entrance",
+   "source": "xhs",
+   "name": "Royal Palace of Madrid (entrance)",
+   "fee": "no",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "王宫入口厕所免费",
+   "password": null,
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "spain/madrid"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -3.708397,
+    40.42159
+   ]
+  },
+  "properties": {
+   "id": "xhs/mcdonald-s-gran-v-a",
+   "source": "xhs",
+   "name": "McDonald's (Gran Vía)",
+   "fee": "no",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "格兰维亚大街麦当劳厕所免费",
+   "password": null,
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "spain/madrid"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -3.692683,
+    40.409605
+   ]
+  },
+  "properties": {
+   "id": "xhs/mcdonald-s-near-reina-sof-a",
+   "source": "xhs",
+   "name": "McDonald's (near Reina Sofía)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "7331#",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "spain/madrid"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -3.698135,
+    40.460783
+   ]
+  },
+  "properties": {
+   "id": "xhs/mcdonald-s-cuatro-caminos",
+   "source": "xhs",
+   "name": "McDonald's (Cuatro Caminos)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "1304",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "spain/madrid"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -3.6983,
+    40.4609
+   ]
+  },
+  "properties": {
+   "id": "xhs/kfc-cuatro-caminos",
+   "source": "xhs",
+   "name": "KFC (Cuatro Caminos)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "1234",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "spain/madrid"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -3.709209,
+    40.417771
+   ]
+  },
+  "properties": {
+   "id": "xhs/mcdonald-s-pera",
+   "source": "xhs",
+   "name": "McDonald's (Ópera)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "123A",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "spain/madrid"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -3.696,
+    40.4148
+   ]
+  },
+  "properties": {
+   "id": "xhs/faborit-near-congreso",
+   "source": "xhs",
+   "name": "Faborit (near Congreso)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "马德里议会大厦旁边",
+   "password": "1793",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "spain/madrid"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -3.702,
+    40.4168
+   ]
+  },
+  "properties": {
+   "id": "xhs/galer-a-canalejas",
+   "source": "xhs",
+   "name": "Galería Canalejas",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "9855",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "spain/madrid"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -3.705028,
+    40.417698
+   ]
+  },
+  "properties": {
+   "id": "xhs/el-corte-ingl-s-gran-v-a",
+   "source": "xhs",
+   "name": "El Corte Inglés (Gran Vía)",
+   "fee": "no",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": null,
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "spain/madrid"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -3.691812,
+    40.418845
+   ]
+  },
+  "properties": {
+   "id": "xhs/centrocentro-palacio-de-cibeles-1f",
+   "source": "xhs",
+   "name": "CentroCentro (Palacio de Cibeles, 1F)",
+   "fee": "no",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "一层免费，还有免费当代艺术展",
+   "password": null,
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "spain/madrid"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    2.1708,
+    41.3872
+   ]
+  },
+  "properties": {
+   "id": "xhs/starbucks-pla-a-de-catalunya",
+   "source": "xhs",
+   "name": "Starbucks (Plaça de Catalunya)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "#24420A",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "spain/barcelona"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    2.169,
+    41.3874
+   ]
+  },
+  "properties": {
+   "id": "xhs/kfc-pla-a-de-catalunya",
+   "source": "xhs",
+   "name": "KFC (Plaça de Catalunya)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "1214A",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "spain/barcelona"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    2.1494,
+    41.3748
+   ]
+  },
+  "properties": {
+   "id": "xhs/kfc-pla-a-d-espanya",
+   "source": "xhs",
+   "name": "KFC (Plaça d'Espanya)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "4444 / 20190",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "spain/barcelona"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    2.172632,
+    41.382146
+   ]
+  },
+  "properties": {
+   "id": "xhs/taco-bell-near-la-boqueria",
+   "source": "xhs",
+   "name": "Taco Bell (near La Boqueria)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "9753#",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "spain/barcelona"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    2.170313,
+    41.388218
+   ]
+  },
+  "properties": {
+   "id": "xhs/farggi-passeig-de-gr-cia",
+   "source": "xhs",
+   "name": "Farggi (Passeig de Gràcia)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "164766#",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "spain/barcelona"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    2.187118,
+    41.381423
+   ]
+  },
+  "properties": {
+   "id": "xhs/burger-king-beachside",
+   "source": "xhs",
+   "name": "Burger King (beachside)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "3535",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "spain/barcelona"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    2.1502,
+    41.4042
+   ]
+  },
+  "properties": {
+   "id": "xhs/mcdonald-s-near-casa-vicens",
+   "source": "xhs",
+   "name": "McDonald's (near Casa Vicens)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "2854#",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "spain/barcelona"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    2.164472,
+    41.392966
+   ]
+  },
+  "properties": {
+   "id": "xhs/casa-del-libro-near-casa-mil",
+   "source": "xhs",
+   "name": "Casa del Libro (near Casa Milà)",
+   "fee": "no",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "米拉之家旁绿色书店",
+   "password": null,
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "spain/barcelona"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    2.171026,
+    41.387747
+   ]
+  },
+  "properties": {
+   "id": "xhs/el-corte-ingl-s-pla-a-de-catalunya",
+   "source": "xhs",
+   "name": "El Corte Inglés (Plaça de Catalunya)",
+   "fee": "no",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": null,
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "spain/barcelona"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    4.896265,
+    52.375022
+   ]
+  },
+  "properties": {
+   "id": "xhs/bistro-beurs-van-berlage-side",
+   "source": "xhs",
+   "name": "Bistro (Beurs van Berlage side)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "贝尔拉格证券交易所楼侧面大铁门；2026-07 评论称开始收 1 欧",
+   "password": "1357#",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "netherlands/amsterdam"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    4.893942,
+    52.373349
+   ]
+  },
+  "properties": {
+   "id": "xhs/de-bijenkorf-5f",
+   "source": "xhs",
+   "name": "De Bijenkorf (5F)",
+   "fee": "no",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "女王店 5 楼，中部电梯直达，亲测免费干净",
+   "password": null,
+   "code_confirmed_at": null,
+   "cleanliness": "clean",
+   "city": "netherlands/amsterdam"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    4.908198,
+    52.376246
+   ]
+  },
+  "properties": {
+   "id": "xhs/oba-central-library",
+   "source": "xhs",
+   "name": "OBA (Central Library)",
+   "fee": "no",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": null,
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "netherlands/amsterdam"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    4.893682,
+    52.373805
+   ]
+  },
+  "properties": {
+   "id": "xhs/mcdonald-s-opposite-de-bijenkorf",
+   "source": "xhs",
+   "name": "McDonald's (opposite De Bijenkorf)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "1073",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "netherlands/amsterdam"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    13.3907,
+    52.5072
+   ]
+  },
+  "properties": {
+   "id": "xhs/kfc-checkpoint-charlie",
+   "source": "xhs",
+   "name": "KFC (Checkpoint Charlie)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "密码多次轮换（2702→1911→3323），以最新为准",
+   "password": "3323",
+   "code_confirmed_at": "2026-08",
+   "cleanliness": null,
+   "city": "germany/berlin"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    13.413997,
+    52.520853
+   ]
+  },
+  "properties": {
+   "id": "xhs/five-guys-alexanderplatz",
+   "source": "xhs",
+   "name": "Five Guys (Alexanderplatz)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "2026-07 评论称已取消密码",
+   "password": "#1314",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "germany/berlin"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    13.306871,
+    52.506848
+   ]
+  },
+  "properties": {
+   "id": "xhs/burger-king-charlottenburg",
+   "source": "xhs",
+   "name": "Burger King (Charlottenburg)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "#2580",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "germany/berlin"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    13.452241,
+    52.510783
+   ]
+  },
+  "properties": {
+   "id": "xhs/burgermeister-warschauer-str",
+   "source": "xhs",
+   "name": "Burgermeister (Warschauer Str.)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "#4423",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "germany/berlin"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    13.396209,
+    52.501872
+   ]
+  },
+  "properties": {
+   "id": "xhs/jewish-museum-berlin-1f",
+   "source": "xhs",
+   "name": "Jewish Museum Berlin (1F)",
+   "fee": "no",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": null,
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "germany/berlin"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    13.379618,
+    52.515412
+   ]
+  },
+  "properties": {
+   "id": "xhs/akademie-der-k-nste-pariser-platz",
+   "source": "xhs",
+   "name": "Akademie der Künste (Pariser Platz)",
+   "fee": "no",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "国会大厦附近",
+   "password": null,
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "germany/berlin"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    13.337489,
+    52.504371
+   ]
+  },
+  "properties": {
+   "id": "xhs/mcdonald-s-europa-center",
+   "source": "xhs",
+   "name": "McDonald's (Europa-Center)",
+   "fee": "no",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": null,
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "germany/berlin"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    13.401227,
+    52.517032
+   ]
+  },
+  "properties": {
+   "id": "xhs/humboldt-forum",
+   "source": "xhs",
+   "name": "Humboldt Forum",
+   "fee": "no",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "评论：厕所也挺好上的",
+   "password": null,
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "germany/berlin"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    13.394999,
+    52.521654
+   ]
+  },
+  "properties": {
+   "id": "xhs/bode-museum",
+   "source": "xhs",
+   "name": "Bode Museum",
+   "fee": "no",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "评论：厕所不需要过检票",
+   "password": null,
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "germany/berlin"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    4.3593,
+    50.8566
+   ]
+  },
+  "properties": {
+   "id": "xhs/five-guys-brussels-north",
+   "source": "xhs",
+   "name": "Five Guys (Brussels-North)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "网友提示密码会定期更换",
+   "password": "2908#",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "belgium/brussels"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    4.35191,
+    50.847036
+   ]
+  },
+  "properties": {
+   "id": "xhs/starbucks-grand-place",
+   "source": "xhs",
+   "name": "Starbucks (Grand Place)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "2024-11 评论称该店关闭，隔壁上楼可用",
+   "password": "1144",
+   "code_confirmed_at": "2024-10-16",
+   "cleanliness": null,
+   "city": "belgium/brussels"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    4.3556,
+    50.8505
+   ]
+  },
+  "properties": {
+   "id": "xhs/exki-city-centre",
+   "source": "xhs",
+   "name": "EXKi (city centre)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "软包沙发座位下有插座",
+   "password": "65718",
+   "code_confirmed_at": "2026-05-29",
+   "cleanliness": null,
+   "city": "belgium/brussels"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    16.369194,
+    48.203286
+   ]
+  },
+  "properties": {
+   "id": "xhs/caf-state-opera-side-entrance",
+   "source": "xhs",
+   "name": "Café (State Opera side entrance)",
+   "fee": "no",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "国立歌剧院侧门喷泉右，剧院附属咖啡厅直通，无需密码免费干净",
+   "password": null,
+   "code_confirmed_at": null,
+   "cleanliness": "clean",
+   "city": "austria/vienna"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    16.377939,
+    48.184988
+   ]
+  },
+  "properties": {
+   "id": "xhs/wien-hbf-mall-next-to-station",
+   "source": "xhs",
+   "name": "Wien Hbf mall (next to station)",
+   "fee": "no",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "车站需投币；隔壁商场进门右转 Coffee Fellows 旁免费，可问 info 台要密码（旧 37594）",
+   "password": "36482",
+   "code_confirmed_at": "2026-04-03",
+   "cleanliness": null,
+   "city": "austria/vienna"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    16.368937,
+    48.201122
+   ]
+  },
+  "properties": {
+   "id": "xhs/starbucks-city-centre-b1",
+   "source": "xhs",
+   "name": "Starbucks (city centre, B1)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "负一楼厕所",
+   "password": "4065",
+   "code_confirmed_at": "2026-07-28",
+   "cleanliness": null,
+   "city": "austria/vienna"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -0.130176,
+    51.517303
+   ]
+  },
+  "properties": {
+   "id": "xhs/vq-caf-great-russell-st",
+   "source": "xhs",
+   "name": "VQ café (Great Russell St)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "大英博物馆附近，环境安静",
+   "password": "8182",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "uk/london"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -0.128366,
+    51.525414
+   ]
+  },
+  "properties": {
+   "id": "xhs/pret-manger-wc1h-9lt",
+   "source": "xhs",
+   "name": "Pret à Manger (WC1H 9LT)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "UCL 旁",
+   "password": "2580",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "uk/london"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -0.112752,
+    51.518152
+   ]
+  },
+  "properties": {
+   "id": "xhs/pret-manger-holborn-station",
+   "source": "xhs",
+   "name": "Pret à Manger (Holborn Station)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "1234",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "uk/london"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -0.135385,
+    51.497304
+   ]
+  },
+  "properties": {
+   "id": "xhs/pret-manger-victoria-street",
+   "source": "xhs",
+   "name": "Pret à Manger (Victoria Street)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "白金汉宫附近，一楼靠后",
+   "password": "1212",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "uk/london"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -0.125217,
+    51.501153
+   ]
+  },
+  "properties": {
+   "id": "xhs/pret-manger-bridge-street",
+   "source": "xhs",
+   "name": "Pret à Manger (Bridge Street)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "大本钟附近，紧挨 Westminster 地铁站",
+   "password": "4321",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "uk/london"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -0.1167,
+    51.5057
+   ]
+  },
+  "properties": {
+   "id": "xhs/giraffe-southbank-centre",
+   "source": "xhs",
+   "name": "Giraffe (Southbank Centre)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "伦敦眼附近",
+   "password": "2001",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "uk/london"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -0.131138,
+    51.517808
+   ]
+  },
+  "properties": {
+   "id": "xhs/pret-manger-tottenham-court-rd",
+   "source": "xhs",
+   "name": "Pret à Manger (Tottenham Court Rd)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "走路到大英博物馆约 5 分钟",
+   "password": "2580",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "uk/london"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -0.133657,
+    51.512786
+   ]
+  },
+  "properties": {
+   "id": "xhs/pret-manger-wardour-st-soho",
+   "source": "xhs",
+   "name": "Pret à Manger (Wardour St, Soho)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "厕所在楼下，店员基本不管",
+   "password": "1212",
+   "code_confirmed_at": "2025-05",
+   "cleanliness": null,
+   "city": "uk/london"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -0.137915,
+    51.512847
+   ]
+  },
+  "properties": {
+   "id": "xhs/joe-the-juice-broadwick-st-soho",
+   "source": "xhs",
+   "name": "Joe & The Juice (Broadwick St, Soho)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "靠近 Liberty 和 Carnaby Street",
+   "password": "2468",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "uk/london"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -0.1273,
+    51.5175
+   ]
+  },
+  "properties": {
+   "id": "xhs/pret-manger-british-museum",
+   "source": "xhs",
+   "name": "Pret à Manger (British Museum)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "评论提供：531 或 135，试一下就行",
+   "password": "531 / 135",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "uk/london"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -0.133165,
+    51.50313
+   ]
+  },
+  "properties": {
+   "id": "xhs/st-james-s-park-toilets",
+   "source": "xhs",
+   "name": "St James's Park toilets",
+   "fee": "no",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": "Mo-Su 08:00-18:00",
+   "operator": null,
+   "description": "临近地铁站，免费开放",
+   "password": null,
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "uk/london"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -0.132346,
+    51.523307
+   ]
+  },
+  "properties": {
+   "id": "xhs/ucl-malet-place-eng-bldg-b1",
+   "source": "xhs",
+   "name": "UCL Malet Place Eng Bldg (B1)",
+   "fee": "no",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "全天开放不上锁",
+   "password": null,
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "uk/london"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    12.476359,
+    41.910748
+   ]
+  },
+  "properties": {
+   "id": "xhs/piazza-del-popolo-toilets",
+   "source": "xhs",
+   "name": "Piazza del Popolo toilets",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "5700",
+   "code_confirmed_at": "2026-07-21",
+   "cleanliness": null,
+   "city": "italy/rome"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    2.2985,
+    48.8724
+   ]
+  },
+  "properties": {
+   "id": "xhs/pierre-herm-champs-lys-es",
+   "source": "xhs",
+   "name": "Pierre Hermé (Champs-Élysées)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "男 C3586 / 女 C2386",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "france/paris"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    2.31535,
+    48.866042
+   ]
+  },
+  "properties": {
+   "id": "xhs/petit-palais-b1",
+   "source": "xhs",
+   "name": "Petit Palais (B1)",
+   "fee": "no",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "美术馆 -1 楼免费厕所",
+   "password": null,
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "france/paris"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    11.248,
+    43.7757
+   ]
+  },
+  "properties": {
+   "id": "xhs/mcdonald-s-smn-station",
+   "source": "xhs",
+   "name": "McDonald's (SMN station)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "1234A",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "italy/florence"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    11.2558,
+    43.7696
+   ]
+  },
+  "properties": {
+   "id": "xhs/mcdonald-s-piazza-della-signoria",
+   "source": "xhs",
+   "name": "McDonald's (Piazza della Signoria)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "领主广场店：看墙上临时密码",
+   "password": null,
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "italy/florence"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    11.248516,
+    43.776953
+   ]
+  },
+  "properties": {
+   "id": "xhs/mcdonald-s-opposite-smn",
+   "source": "xhs",
+   "name": "McDonald's (opposite SMN)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "5123",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "italy/florence"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    11.264993,
+    43.762828
+   ]
+  },
+  "properties": {
+   "id": "xhs/piazzale-michelangelo-stairs-base",
+   "source": "xhs",
+   "name": "Piazzale Michelangelo (stairs base)",
+   "fee": "no",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "台阶底免费厕所",
+   "password": null,
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "italy/florence"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    11.253,
+    43.7725
+   ]
+  },
+  "properties": {
+   "id": "xhs/starbucks-near-duomo",
+   "source": "xhs",
+   "name": "Starbucks (near Duomo)",
+   "fee": "no",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "圣母百花教堂旁",
+   "password": null,
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "italy/florence"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    11.254586,
+    43.7713
+   ]
+  },
+  "properties": {
+   "id": "xhs/la-rinascente-4f",
+   "source": "xhs",
+   "name": "la Rinascente (4F)",
+   "fee": "no",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "4 楼顶楼右转",
+   "password": null,
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "italy/florence"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    11.253209,
+    43.776585
+   ]
+  },
+  "properties": {
+   "id": "xhs/mercato-centrale-2f",
+   "source": "xhs",
+   "name": "Mercato Centrale (2F)",
+   "fee": "no",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "中央市场二楼",
+   "password": null,
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "italy/florence"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    12.3327,
+    45.4434
+   ]
+  },
+  "properties": {
+   "id": "xhs/mcdonald-s-ca-d-oro-strada-nova",
+   "source": "xhs",
+   "name": "McDonald's (Ca' d'Oro / Strada Nova)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "黄金宫附近",
+   "password": "6789#",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "italy/venice"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    12.3209,
+    45.4409
+   ]
+  },
+  "properties": {
+   "id": "xhs/burger-king-santa-lucia-station",
+   "source": "xhs",
+   "name": "Burger King (Santa Lucia station)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "8787#",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "italy/venice"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    12.2349,
+    45.4823
+   ]
+  },
+  "properties": {
+   "id": "xhs/mcdonald-s-mestre-station",
+   "source": "xhs",
+   "name": "McDonald's (Mestre station)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "3474#",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "italy/venice"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    12.336686,
+    45.438254
+   ]
+  },
+  "properties": {
+   "id": "xhs/dfs-t-fondaco-ground-floor",
+   "source": "xhs",
+   "name": "DFS T Fondaco (Ground floor)",
+   "fee": "no",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "DFS 商场 0 楼（国内 1 楼）",
+   "password": null,
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "italy/venice"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    9.8148,
+    44.1066
+   ]
+  },
+  "properties": {
+   "id": "xhs/mcdonald-s-la-spezia-station",
+   "source": "xhs",
+   "name": "McDonald's (La Spezia station)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "五渔村门户；各村游客中心可能免费",
+   "password": "2020A",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "italy/la-spezia"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    4.8608,
+    45.7602
+   ]
+  },
+  "properties": {
+   "id": "xhs/mcdonald-s-part-dieu",
+   "source": "xhs",
+   "name": "McDonald's (Part-Dieu)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "2109 / 2166 / 4972",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "france/lyon"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    4.8615,
+    45.7606
+   ]
+  },
+  "properties": {
+   "id": "xhs/burger-king-part-dieu",
+   "source": "xhs",
+   "name": "Burger King (Part-Dieu)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "C0458A",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "france/lyon"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    4.8613,
+    45.76
+   ]
+  },
+  "properties": {
+   "id": "xhs/popeyes-part-dieu",
+   "source": "xhs",
+   "name": "Popeyes (Part-Dieu)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "C0589 / C3859 / CB7280",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "france/lyon"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    4.861,
+    45.7604
+   ]
+  },
+  "properties": {
+   "id": "xhs/woko-part-dieu",
+   "source": "xhs",
+   "name": "WOKO (Part-Dieu)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "C1234",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "france/lyon"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    4.834229,
+    45.758198
+   ]
+  },
+  "properties": {
+   "id": "xhs/mcdonald-s-bellecour",
+   "source": "xhs",
+   "name": "McDonald's (Bellecour)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "4972",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "france/lyon"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    4.86015,
+    45.760365
+   ]
+  },
+  "properties": {
+   "id": "xhs/pr-t-manger-lyon",
+   "source": "xhs",
+   "name": "Prêt à Manger (Lyon)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "CB123",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "france/lyon"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    4.854037,
+    45.74953
+   ]
+  },
+  "properties": {
+   "id": "xhs/monoprix-lyon",
+   "source": "xhs",
+   "name": "Monoprix (Lyon)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "1610",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "france/lyon"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    4.863302,
+    45.770065
+   ]
+  },
+  "properties": {
+   "id": "xhs/mcdonald-s-charpennes",
+   "source": "xhs",
+   "name": "McDonald's (Charpennes)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "4909",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "france/lyon"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    4.835474,
+    45.761427
+   ]
+  },
+  "properties": {
+   "id": "xhs/printemps-lyon-top-floor-parking",
+   "source": "xhs",
+   "name": "Printemps Lyon (top floor parking)",
+   "fee": "no",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "里昂春天百货顶楼停车场厕所",
+   "password": null,
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "france/lyon"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -5.9926,
+    37.3938
+   ]
+  },
+  "properties": {
+   "id": "xhs/mcdonald-s-metropol-parasol",
+   "source": "xhs",
+   "name": "McDonald's (Metropol Parasol)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "都市阳伞旁",
+   "password": "1507 / 1507A",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "spain/seville"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -5.996,
+    37.3828
+   ]
+  },
+  "properties": {
+   "id": "xhs/mcdonald-s-torre-del-oro-2f",
+   "source": "xhs",
+   "name": "McDonald's (Torre del Oro, 2F)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "河边黄金塔旁，二楼右手边",
+   "password": "0915A",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "spain/seville"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -5.9869,
+    37.3772
+   ]
+  },
+  "properties": {
+   "id": "xhs/university-of-seville",
+   "source": "xhs",
+   "name": "University of Seville",
+   "fee": "no",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "可充电",
+   "password": null,
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "spain/seville"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    2.1285,
+    48.8005
+   ]
+  },
+  "properties": {
+   "id": "xhs/mcdonald-s-near-palace-of-versailles",
+   "source": "xhs",
+   "name": "McDonald's (near Palace of Versailles)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "A1418B",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "france/versailles"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -0.3768,
+    39.4662
+   ]
+  },
+  "properties": {
+   "id": "xhs/mcdonald-s-estaci-del-nord",
+   "source": "xhs",
+   "name": "McDonald's (Estació del Nord)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "1593",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "spain/valencia"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -4.021561,
+    39.859233
+   ]
+  },
+  "properties": {
+   "id": "xhs/burger-king-toledo-city-centre",
+   "source": "xhs",
+   "name": "Burger King (Toledo city centre)",
+   "fee": "yes",
+   "charge": null,
+   "access": null,
+   "wheelchair": null,
+   "opening_hours": null,
+   "operator": null,
+   "description": "",
+   "password": "385697",
+   "code_confirmed_at": null,
+   "cleanliness": null,
+   "city": "spain/toledo"
+  }
+ }
+]

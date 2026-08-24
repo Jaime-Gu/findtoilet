@@ -18,7 +18,7 @@
           "zoom": 13,
           "data": "data/toilets/france/paris.geojson",
           "osm_relation": 71525,
-          "count": 931,
+          "count": 949,
           "names": {
             "zh": "巴黎",
             "es": "París",
@@ -45,6 +45,30 @@
             "ko": "마르세유",
             "fr": "Marseille"
           }
+        },
+        {
+          "code": "lyon",
+          "name": "Lyon",
+          "center": [
+            45.7578137,
+            4.8320114
+          ],
+          "zoom": 13,
+          "data": "data/toilets/france/lyon.geojson",
+          "osm_relation": 120965,
+          "count": 272
+        },
+        {
+          "code": "versailles",
+          "name": "Versailles",
+          "center": [
+            48.8035403,
+            2.1266886
+          ],
+          "zoom": 13,
+          "data": "data/toilets/france/versailles.geojson",
+          "osm_relation": 30295,
+          "count": 37
         }
       ],
       "names": {
@@ -69,7 +93,7 @@
           "zoom": 13,
           "data": "data/toilets/italy/rome.geojson",
           "osm_relation": 41485,
-          "count": 284,
+          "count": 289,
           "names": {
             "zh": "罗马",
             "es": "Roma",
@@ -88,7 +112,7 @@
           "zoom": 13,
           "data": "data/toilets/italy/milan.geojson",
           "osm_relation": 44915,
-          "count": 338,
+          "count": 344,
           "names": {
             "zh": "米兰",
             "es": "Milán",
@@ -115,6 +139,42 @@
             "ko": "나폴리",
             "fr": "Naples"
           }
+        },
+        {
+          "code": "venice",
+          "name": "Venice",
+          "center": [
+            45.4371908,
+            12.3345898
+          ],
+          "zoom": 13,
+          "data": "data/toilets/italy/venice.geojson",
+          "osm_relation": 44741,
+          "count": 169
+        },
+        {
+          "code": "florence",
+          "name": "Florence",
+          "center": [
+            43.7697955,
+            11.2556404
+          ],
+          "zoom": 13,
+          "data": "data/toilets/italy/florence.geojson",
+          "osm_relation": 42602,
+          "count": 85
+        },
+        {
+          "code": "la-spezia",
+          "name": "La Spezia",
+          "center": [
+            44.238366,
+            9.6912326
+          ],
+          "zoom": 13,
+          "data": "data/toilets/italy/la-spezia.geojson",
+          "osm_relation": 49131,
+          "count": 75
         }
       ],
       "names": {
@@ -139,7 +199,7 @@
           "zoom": 13,
           "data": "data/toilets/spain/barcelona.geojson",
           "osm_relation": 347950,
-          "count": 290,
+          "count": 301,
           "names": {
             "zh": "巴塞罗那",
             "es": "Barcelona",
@@ -158,7 +218,7 @@
           "zoom": 13,
           "data": "data/toilets/spain/madrid.geojson",
           "osm_relation": 5326784,
-          "count": 307,
+          "count": 321,
           "names": {
             "zh": "马德里",
             "es": "Madrid",
@@ -166,6 +226,42 @@
             "ko": "마드리드",
             "fr": "Madrid"
           }
+        },
+        {
+          "code": "valencia",
+          "name": "Valencia",
+          "center": [
+            39.4697065,
+            -0.3763353
+          ],
+          "zoom": 13,
+          "data": "data/toilets/spain/valencia.geojson",
+          "osm_relation": 344953,
+          "count": 87
+        },
+        {
+          "code": "seville",
+          "name": "Seville",
+          "center": [
+            37.3886303,
+            -5.9953403
+          ],
+          "zoom": 13,
+          "data": "data/toilets/spain/seville.geojson",
+          "osm_relation": 342563,
+          "count": 66
+        },
+        {
+          "code": "toledo",
+          "name": "Toledo",
+          "center": [
+            39.8558913,
+            -4.024265
+          ],
+          "zoom": 13,
+          "data": "data/toilets/spain/toledo.geojson",
+          "osm_relation": 342999,
+          "count": 25
         }
       ],
       "names": {
@@ -190,7 +286,7 @@
           "zoom": 13,
           "data": "data/toilets/netherlands/amsterdam.geojson",
           "osm_relation": 271110,
-          "count": 161,
+          "count": 165,
           "names": {
             "zh": "阿姆斯特丹",
             "es": "Ámsterdam",
@@ -241,7 +337,7 @@
           "zoom": 13,
           "data": "data/toilets/germany/berlin.geojson",
           "osm_relation": 62422,
-          "count": 1104,
+          "count": 1113,
           "names": {
             "zh": "柏林",
             "es": "Berlín",
@@ -324,7 +420,7 @@
           "zoom": 13,
           "data": "data/toilets/austria/vienna.geojson",
           "osm_relation": 109166,
-          "count": 749,
+          "count": 752,
           "names": {
             "zh": "维也纳",
             "es": "Viena",
@@ -356,7 +452,7 @@
           "zoom": 13,
           "data": "data/toilets/belgium/brussels.geojson",
           "osm_relation": 58274,
-          "count": 98,
+          "count": 101,
           "names": {
             "zh": "布鲁塞尔",
             "es": "Bruselas",
@@ -452,7 +548,7 @@
           "zoom": 12,
           "data": "data/toilets/uk/london.geojson",
           "osm_relation": null,
-          "count": 2216,
+          "count": 2237,
           "names": {
             "zh": "伦敦",
             "es": "Londres",
