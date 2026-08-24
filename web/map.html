@@ -51,6 +51,13 @@
         <button class="sort-btn" id="sort-distance" data-i18n="list.sort">Sort by distance</button>
         <button class="sidebar-close" id="sidebar-close" aria-label="Close">✕</button>
       </div>
+      <div class="filter-row" id="filter-row">
+        <button class="chip active" data-filter="all"><span data-i18n="filter.all">All</span></button>
+        <button class="chip" data-filter="free"><span data-i18n="legend.free">Free</span></button>
+        <button class="chip" data-filter="paid"><span data-i18n="legend.paid">Paid</span></button>
+        <button class="chip" data-filter="wheelchair">♿ <span data-i18n="filter.wheelchair">Wheelchair</span></button>
+        <button class="chip" data-filter="code">🔑 <span data-i18n="legend.code">Door code</span></button>
+      </div>
       <div id="toilet-list"></div>
     </aside>
     <div id="map"></div>

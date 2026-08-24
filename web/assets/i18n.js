@@ -51,6 +51,8 @@ const I18N = {
     'list.button': 'List',
     'list.sort': '📍 Sort by distance',
     'list.locating': '📍 Locating…',
+    'filter.all': 'All',
+    'filter.wheelchair': 'Wheelchair',
   },
   zh: {
     'nav.contribute': '参与贡献',
@@ -91,6 +93,8 @@ const I18N = {
     'list.button': '列表',
     'list.sort': '📍 按距离排序',
     'list.locating': '📍 定位中…',
+    'filter.all': '全部',
+    'filter.wheelchair': '无障碍',
   },
   es: {
     'nav.contribute': 'Contribuir',
@@ -131,6 +135,8 @@ const I18N = {
     'list.button': 'Lista',
     'list.sort': '📍 Ordenar por distancia',
     'list.locating': '📍 Localizando…',
+    'filter.all': 'Todos',
+    'filter.wheelchair': 'Accesible',
   },
   ja: {
     'nav.contribute': '貢献する',
@@ -171,6 +177,8 @@ const I18N = {
     'list.button': 'リスト',
     'list.sort': '📍 距離順に並べ替え',
     'list.locating': '📍 測位中…',
+    'filter.all': 'すべて',
+    'filter.wheelchair': '車椅子対応',
   },
   ko: {
     'nav.contribute': '기여하기',
@@ -211,6 +219,8 @@ const I18N = {
     'list.button': '목록',
     'list.sort': '📍 거리순 정렬',
     'list.locating': '📍 위치 확인 중…',
+    'filter.all': '전체',
+    'filter.wheelchair': '휠체어 가능',
   },
   fr: {
     'nav.contribute': 'Contribuer',
@@ -251,6 +261,8 @@ const I18N = {
     'list.button': 'Liste',
     'list.sort': '📍 Trier par distance',
     'list.locating': '📍 Localisation…',
+    'filter.all': 'Tous',
+    'filter.wheelchair': 'Accessible',
   },
 };
 

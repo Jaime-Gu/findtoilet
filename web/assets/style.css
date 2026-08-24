@@ -333,6 +333,26 @@ body {
   white-space: nowrap;
 }
 .t-dist { flex: none; font-size: 12.5px; font-weight: 700; color: var(--brand); }
+.filter-row {
+  display: flex;
+  gap: 6px;
+  padding: 10px 10px 2px;
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+.chip {
+  border: 1.5px solid var(--brand-light);
+  background: #fff;
+  color: var(--brand-dark);
+  border-radius: 999px;
+  padding: 5px 12px;
+  font-size: 12.5px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.chip.active { background: var(--brand); color: #fff; border-color: var(--brand); }
 #list-fab { display: none; }
 
 @media (max-width: 1024px) {

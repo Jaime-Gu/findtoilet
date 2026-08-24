@@ -133,6 +133,7 @@ async function resolveCity() {
 
   const counts = { free: 0, paid: 0, unknown: 0 };
   const byId = new Map();
+  const allMarkers = [];
   for (const f of data.features) {
     const p = f.properties;
     if (p.fee === 'no') counts.free++;
@@ -141,6 +142,7 @@ async function resolveCity() {
     const [lng, lat] = f.geometry.coordinates;
     const marker = L.marker([lat, lng], { icon: makeIcon(p) }).bindPopup(popupHtml(f), { maxWidth: 300 });
     byId.set(p.id, marker);
+    allMarkers.push({ f, marker });
     cluster.addLayer(marker);
   }
   cluster.addTo(map);
@@ -193,6 +195,32 @@ async function resolveCity() {
   const sidebar = document.getElementById('sidebar');
   const sortBtn = document.getElementById('sort-distance');
   let userPos = null; // [lng, lat]
+  let activeFilter = 'all';
+
+  function passesFilter(p) {
+    if (activeFilter === 'free') return p.fee === 'no';
+    if (activeFilter === 'paid') return p.fee === 'yes';
+    if (activeFilter === 'wheelchair') return p.wheelchair === 'yes';
+    if (activeFilter === 'code') return !!p.password;
+    return true;
+  }
+
+  function applyFilter() {
+    const filtered = data.features.filter(f => passesFilter(f.properties));
+    // map markers follow the filter too
+    cluster.clearLayers();
+    cluster.addLayers(allMarkers.filter(m => passesFilter(m.f.properties)).map(m => m.marker));
+    document.getElementById('sidebar-title').textContent = tf('list.title', { n: filtered.length });
+    return filtered;
+  }
+
+  document.getElementById('filter-row').addEventListener('click', e => {
+    const chip = e.target.closest('.chip');
+    if (!chip) return;
+    activeFilter = chip.dataset.filter;
+    document.querySelectorAll('#filter-row .chip').forEach(c => c.classList.toggle('active', c === chip));
+    renderList();
+  });
 
   function distMeters(from, coords) {
     const R = 6371000, rad = Math.PI / 180;
@@ -205,7 +233,7 @@ async function resolveCity() {
   function fmtDist(m) { return m < 1000 ? `${Math.round(m)} m` : `${(m / 1000).toFixed(1)} km`; }
 
   function renderList() {
-    const items = data.features.map(f => ({
+    const items = applyFilter().map(f => ({
       f, d: userPos ? distMeters(userPos, f.geometry.coordinates) : null,
     }));
     if (userPos) items.sort((a, b) => a.d - b.d);
