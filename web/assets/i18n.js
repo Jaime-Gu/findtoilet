@@ -279,11 +279,16 @@ const I18N = {
 };
 
 function getLang() {
-  // ?lang=zh overrides stored choice (useful for sharing localized links)
+  // 1. ?lang=zh URL override (sharing localized links)
   const url = new URLSearchParams(location.search).get('lang');
   if (FT_LANGS.some(x => x.code === url)) return url;
+  // 2. stored explicit choice
   const l = localStorage.getItem('ft-lang');
-  return FT_LANGS.some(x => x.code === l) ? l : 'en';
+  if (FT_LANGS.some(x => x.code === l)) return l;
+  // 3. browser/device language, falling back to English
+  const nav = (navigator.language || 'en').toLowerCase();
+  const match = FT_LANGS.find(x => nav === x.code || nav.startsWith(x.code + '-'));
+  return match ? match.code : 'en';
 }
 function setLang(code) { localStorage.setItem('ft-lang', code); }
 function t(key) {

@@ -56,7 +56,14 @@
           "zoom": 13,
           "data": "data/toilets/france/lyon.geojson",
           "osm_relation": 120965,
-          "count": 272
+          "count": 272,
+          "names": {
+            "zh": "里昂",
+            "es": "Lyon",
+            "ja": "リヨン",
+            "ko": "리옹",
+            "fr": "Lyon"
+          }
         },
         {
           "code": "versailles",
@@ -68,7 +75,14 @@
           "zoom": 13,
           "data": "data/toilets/france/versailles.geojson",
           "osm_relation": 30295,
-          "count": 37
+          "count": 37,
+          "names": {
+            "zh": "凡尔赛",
+            "es": "Versalles",
+            "ja": "ヴェルサイユ",
+            "ko": "베르사유",
+            "fr": "Versailles"
+          }
         }
       ],
       "names": {
@@ -150,7 +164,14 @@
           "zoom": 13,
           "data": "data/toilets/italy/venice.geojson",
           "osm_relation": 44741,
-          "count": 169
+          "count": 169,
+          "names": {
+            "zh": "威尼斯",
+            "es": "Venecia",
+            "ja": "ベネチア",
+            "ko": "베니스",
+            "fr": "Venise"
+          }
         },
         {
           "code": "florence",
@@ -162,7 +183,14 @@
           "zoom": 13,
           "data": "data/toilets/italy/florence.geojson",
           "osm_relation": 42602,
-          "count": 85
+          "count": 85,
+          "names": {
+            "zh": "佛罗伦萨",
+            "es": "Florencia",
+            "ja": "フィレンツェ",
+            "ko": "피렌체",
+            "fr": "Florence"
+          }
         },
         {
           "code": "la-spezia",
@@ -174,7 +202,14 @@
           "zoom": 13,
           "data": "data/toilets/italy/la-spezia.geojson",
           "osm_relation": 49131,
-          "count": 75
+          "count": 75,
+          "names": {
+            "zh": "拉斯佩齐亚",
+            "es": "La Spezia",
+            "ja": "ラ・スペツィア",
+            "ko": "라스페치아",
+            "fr": "La Spezia"
+          }
         }
       ],
       "names": {
@@ -237,7 +272,14 @@
           "zoom": 13,
           "data": "data/toilets/spain/valencia.geojson",
           "osm_relation": 344953,
-          "count": 87
+          "count": 87,
+          "names": {
+            "zh": "瓦伦西亚",
+            "es": "Valencia",
+            "ja": "バレンシア",
+            "ko": "발렌시아",
+            "fr": "Valence"
+          }
         },
         {
           "code": "seville",
@@ -249,7 +291,14 @@
           "zoom": 13,
           "data": "data/toilets/spain/seville.geojson",
           "osm_relation": 342563,
-          "count": 66
+          "count": 66,
+          "names": {
+            "zh": "塞维利亚",
+            "es": "Sevilla",
+            "ja": "セビリア",
+            "ko": "세비야",
+            "fr": "Séville"
+          }
         },
         {
           "code": "toledo",
@@ -261,7 +310,14 @@
           "zoom": 13,
           "data": "data/toilets/spain/toledo.geojson",
           "osm_relation": 342999,
-          "count": 25
+          "count": 25,
+          "names": {
+            "zh": "托莱多",
+            "es": "Toledo",
+            "ja": "トレド",
+            "ko": "톨레도",
+            "fr": "Tolède"
+          }
         }
       ],
       "names": {

@@ -85,8 +85,10 @@ for (const city of CITIES) {
       index.countries.push(country);
     }
     const count = Number(stdout.match(/Fetched (\d+) toilets/)?.[1] ?? 0) || null;
+    const prev = country.cities.find(c => c.code === city.code);
     country.cities = country.cities.filter(c => c.code !== city.code);
     country.cities.push({
+      ...prev, // preserve names (i18n) and other fields across re-fetches
       code: city.code, name: city.name,
       center: [lat, lon], zoom: 13,
       data: out, osm_relation: relationId, count,
