@@ -47,6 +47,10 @@ const I18N = {
     'popup.report': '✏️ Report / update this toilet',
     'error.location': 'Could not get your location. Check browser permissions.',
     'error.load': 'Failed to load data: {msg}',
+    'list.title': '{n} toilets',
+    'list.button': 'List',
+    'list.sort': '📍 Sort by distance',
+    'list.locating': '📍 Locating…',
   },
   zh: {
     'nav.contribute': '参与贡献',
@@ -83,6 +87,10 @@ const I18N = {
     'popup.report': '✏️ 上报 / 更新这个厕所',
     'error.location': '无法获取你的位置，请检查浏览器权限。',
     'error.load': '数据加载失败：{msg}',
+    'list.title': '{n} 个厕所',
+    'list.button': '列表',
+    'list.sort': '📍 按距离排序',
+    'list.locating': '📍 定位中…',
   },
   es: {
     'nav.contribute': 'Contribuir',
@@ -119,6 +127,10 @@ const I18N = {
     'popup.report': '✏️ Reportar / actualizar este baño',
     'error.location': 'No se pudo obtener tu ubicación. Revisa los permisos del navegador.',
     'error.load': 'Error al cargar los datos: {msg}',
+    'list.title': '{n} baños',
+    'list.button': 'Lista',
+    'list.sort': '📍 Ordenar por distancia',
+    'list.locating': '📍 Localizando…',
   },
   ja: {
     'nav.contribute': '貢献する',
@@ -155,6 +167,10 @@ const I18N = {
     'popup.report': '✏️ このトイレを報告 / 更新',
     'error.location': '現在地を取得できませんでした。ブラウザの権限を確認してください。',
     'error.load': 'データの読み込みに失敗しました：{msg}',
+    'list.title': '{n}件のトイレ',
+    'list.button': 'リスト',
+    'list.sort': '📍 距離順に並べ替え',
+    'list.locating': '📍 測位中…',
   },
   ko: {
     'nav.contribute': '기여하기',
@@ -191,6 +207,10 @@ const I18N = {
     'popup.report': '✏️ 이 화장실 신고 / 업데이트',
     'error.location': '위치를 가져올 수 없습니다. 브라우저 권한을 확인하세요.',
     'error.load': '데이터 로드 실패: {msg}',
+    'list.title': '화장실 {n}개',
+    'list.button': '목록',
+    'list.sort': '📍 거리순 정렬',
+    'list.locating': '📍 위치 확인 중…',
   },
   fr: {
     'nav.contribute': 'Contribuer',
@@ -227,6 +247,10 @@ const I18N = {
     'popup.report': '✏️ Signaler / mettre à jour ces toilettes',
     'error.location': 'Impossible d’obtenir votre position. Vérifiez les autorisations du navigateur.',
     'error.load': 'Échec du chargement des données : {msg}',
+    'list.title': '{n} toilettes',
+    'list.button': 'Liste',
+    'list.sort': '📍 Trier par distance',
+    'list.locating': '📍 Localisation…',
   },
 };
 

@@ -183,6 +183,86 @@ async function resolveCity() {
 
   document.getElementById('map-count').textContent =
     tf('map.stats', { n: data.features.length, f: counts.free, p: counts.paid });
+  document.getElementById('sidebar-title').textContent =
+    tf('list.title', { n: data.features.length });
+  document.getElementById('list-fab-label').textContent =
+    `☰ ${t('list.button')} · ${data.features.length}`;
+
+  // ---- sidebar list (desktop: always visible; mobile: overlay via FAB) ----
+  const listEl = document.getElementById('toilet-list');
+  const sidebar = document.getElementById('sidebar');
+  const sortBtn = document.getElementById('sort-distance');
+  let userPos = null; // [lng, lat]
+
+  function distMeters(from, coords) {
+    const R = 6371000, rad = Math.PI / 180;
+    const [lng1, lat1] = from, [lng2, lat2] = coords;
+    const dLat = (lat2 - lat1) * rad, dLng = (lng2 - lng1) * rad;
+    const a = Math.sin(dLat / 2) ** 2 +
+      Math.cos(lat1 * rad) * Math.cos(lat2 * rad) * Math.sin(dLng / 2) ** 2;
+    return 2 * R * Math.asin(Math.sqrt(a));
+  }
+  function fmtDist(m) { return m < 1000 ? `${Math.round(m)} m` : `${(m / 1000).toFixed(1)} km`; }
+
+  function renderList() {
+    const items = data.features.map(f => ({
+      f, d: userPos ? distMeters(userPos, f.geometry.coordinates) : null,
+    }));
+    if (userPos) items.sort((a, b) => a.d - b.d);
+    listEl.innerHTML = items.map(({ f, d }) => {
+      const p = f.properties;
+      const name = p.name ? esc(p.name) : t('popup.title');
+      const meta = [];
+      if (p.wheelchair === 'yes') meta.push('♿');
+      if (p.opening_hours) meta.push(`🕒 ${esc(p.opening_hours)}`);
+      if (p.password) meta.push('🔑');
+      return `<div class="t-item" data-id="${esc(p.id)}">
+        <div class="t-item-main">
+          <div class="t-item-head"><span class="t-name">${name}</span>${feeBadge(p)}</div>
+          ${meta.length ? `<div class="t-meta">${meta.join(' · ')}</div>` : ''}
+        </div>
+        ${d != null ? `<div class="t-dist">${fmtDist(d)}</div>` : ''}
+      </div>`;
+    }).join('');
+  }
+  renderList();
+
+  listEl.addEventListener('click', e => {
+    const item = e.target.closest('.t-item');
+    if (!item) return;
+    const marker = byId.get(item.dataset.id);
+    if (!marker) return;
+    sidebar.classList.remove('open');
+    map.flyTo(marker.getLatLng(), 17);
+    cluster.zoomToShowLayer(marker, () => marker.openPopup());
+  });
+
+  sortBtn.addEventListener('click', () => {
+    if (userPos) {
+      userPos = null;
+      sortBtn.classList.remove('active');
+      renderList();
+      return;
+    }
+    if (!navigator.geolocation) { alert(t('error.location')); return; }
+    sortBtn.textContent = t('list.locating');
+    navigator.geolocation.getCurrentPosition(
+      pos => {
+        userPos = [pos.coords.longitude, pos.coords.latitude];
+        sortBtn.classList.add('active');
+        sortBtn.textContent = t('list.sort');
+        renderList();
+      },
+      () => {
+        sortBtn.textContent = t('list.sort');
+        alert(t('error.location'));
+      },
+      { timeout: 10000 }
+    );
+  });
+
+  document.getElementById('list-fab').addEventListener('click', () => sidebar.classList.add('open'));
+  document.getElementById('sidebar-close').addEventListener('click', () => sidebar.classList.remove('open'));
 
   document.getElementById('locate-btn').addEventListener('click', () => {
     map.locate({ setView: true, maxZoom: 16 });

@@ -44,7 +44,18 @@
     </div>
   </div>
 
-  <div id="map"></div>
+  <div class="map-main">
+    <aside id="sidebar">
+      <div class="sidebar-header">
+        <span class="sidebar-title" id="sidebar-title"></span>
+        <button class="sort-btn" id="sort-distance" data-i18n="list.sort">Sort by distance</button>
+        <button class="sidebar-close" id="sidebar-close" aria-label="Close">✕</button>
+      </div>
+      <div id="toilet-list"></div>
+    </aside>
+    <div id="map"></div>
+    <button id="list-fab"><span id="list-fab-label">☰ List</span></button>
+  </div>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
           integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
