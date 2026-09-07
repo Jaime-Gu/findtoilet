@@ -111,17 +111,17 @@ async function resolveCity() {
 
   const map = L.map('map', { zoomControl: true }).setView(city.center, Number(new URLSearchParams(location.search).get('zoom')) || city.zoom);
 
-  // Base layers: minimal CARTO styles by default (cleaner look, Apple-style),
-  // OSM standard kept as an option. All are live raster tile services.
+  // Base layers: minimal light styles by default (cleaner look, Apple-style).
+  // CARTO now requires an API key (tiles show "API KEY REQUIRED"), so we use
+  // keyless Esri light-gray canvas + OSM family instead. All are live raster tiles.
   const osmAttr = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
+  const esriAttr = 'Tiles &copy; Esri &mdash; Source: Esri, and the GIS User Community';
   const baseLayers = {
-    'Light': L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-      maxZoom: 20, subdomains: 'abcd',
-      attribution: `${osmAttr} &copy; <a href="https://carto.com/attributions">CARTO</a>`,
+    'Light': L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray/MapServer/tile/{z}/{y}/{x}', {
+      maxZoom: 16, attribution: esriAttr,
     }),
-    'Voyager': L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-      maxZoom: 20, subdomains: 'abcd',
-      attribution: `${osmAttr} &copy; <a href="https://carto.com/attributions">CARTO</a>`,
+    'Streets': L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+      maxZoom: 19, attribution: esriAttr,
     }),
     'OSM Standard': L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 19, attribution: osmAttr,
@@ -147,7 +147,13 @@ async function resolveCity() {
     else if (p.fee === 'yes') counts.paid++;
     else counts.unknown++;
     const [lng, lat] = f.geometry.coordinates;
-    const marker = L.marker([lat, lng], { icon: makeIcon(p) }).bindPopup(popupHtml(f), { maxWidth: 300 });
+    const marker = L.marker([lat, lng], { icon: makeIcon(p) }).bindPopup(popupHtml(f), {
+      maxWidth: 300,
+      // keep popups below the floating header/toolbar (~150px): auto-pan the
+      // map instead of letting popups slide under the glass bars
+      autoPanPadding: L.point(10, 160),
+      keepInView: true,
+    });
     byId.set(p.id, marker);
     allMarkers.push({ f, marker });
     cluster.addLayer(marker);
