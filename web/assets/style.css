@@ -46,7 +46,7 @@ body {
   backdrop-filter: blur(18px) saturate(1.5);
   -webkit-backdrop-filter: blur(18px) saturate(1.5);
   border: 1px solid rgba(255, 255, 255, 0.65);
-  border-radius: 22px;
+  border-radius: 28px;
   box-shadow: 0 8px 32px rgba(7, 58, 66, 0.12);
 }
 .header-inner {
@@ -177,7 +177,7 @@ body {
   backdrop-filter: blur(18px) saturate(1.5);
   -webkit-backdrop-filter: blur(18px) saturate(1.5);
   border: 1px solid rgba(255, 255, 255, 0.65);
-  border-radius: 16px;
+  border-radius: 20px;
   padding: 22px 24px;
   margin-bottom: 16px;
   box-shadow: 0 8px 32px rgba(7, 58, 66, 0.08);
@@ -212,7 +212,7 @@ body {
   backdrop-filter: blur(18px) saturate(1.5);
   -webkit-backdrop-filter: blur(18px) saturate(1.5);
   border: 1px solid rgba(255, 255, 255, 0.65);
-  border-radius: 16px;
+  border-radius: 20px;
   padding: 20px 22px;
 }
 .about-card h3 { font-size: 16px; color: var(--brand-deep); margin-bottom: 8px; }
@@ -229,7 +229,7 @@ body {
   backdrop-filter: blur(18px) saturate(1.5);
   -webkit-backdrop-filter: blur(18px) saturate(1.5);
   border: 1px solid rgba(255, 255, 255, 0.35);
-  border-radius: 22px;
+  border-radius: 28px;
   box-shadow: 0 8px 32px rgba(7, 58, 66, 0.18);
   color: #EAF7F8;
   font-size: 13px;
@@ -255,7 +255,7 @@ body {
   backdrop-filter: blur(18px) saturate(1.5);
   -webkit-backdrop-filter: blur(18px) saturate(1.5);
   border: 1px solid rgba(255, 255, 255, 0.65);
-  border-radius: 16px;
+  border-radius: 20px;
   box-shadow: 0 8px 32px rgba(7, 58, 66, 0.1);
 }
 .map-city { font-weight: 700; color: var(--brand-deep); font-size: 16px; }
@@ -360,7 +360,7 @@ body {
   backdrop-filter: blur(12px) saturate(1.4);
   -webkit-backdrop-filter: blur(12px) saturate(1.4);
   border: 1px solid rgba(255, 255, 255, 0.65);
-  border-radius: 12px;
+  border-radius: 15px;
   padding: 10px 12px;
   margin-bottom: 8px;
   cursor: pointer;
@@ -603,4 +603,14 @@ body {
   .leaflet-popup-content-wrapper { max-width: 84vw; }
   .leaflet-popup-content { margin: 12px 14px; line-height: 1.45; }
   .popup { min-width: 0; }
+
+  /* footer: single slim scrollable line on mobile */
+  .site-footer {
+    font-size: 11px;
+    padding: 9px 14px;
+    white-space: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .site-footer p { white-space: nowrap; margin: 0; }
 }
