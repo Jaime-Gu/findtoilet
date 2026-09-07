@@ -111,16 +111,18 @@ async function resolveCity() {
 
   const map = L.map('map', { zoomControl: true }).setView(city.center, Number(new URLSearchParams(location.search).get('zoom')) || city.zoom);
 
-  // Base layers. CARTO requires an API key now; Esri World_Light_Gray was
-  // retired (404). Default: Esri World Street Map (light, keyless, z19).
+  // Base layers. Default: OSM France HOT (clean light style, keyless, z19).
   const osmAttr = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
   const esriAttr = 'Tiles &copy; Esri &mdash; Source: Esri, and the GIS User Community';
   const baseLayers = {
-    'Light': L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
-      maxZoom: 19, attribution: esriAttr,
-    }),
-    'HOT (light)': L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
+    'Light': L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
       maxZoom: 19, subdomains: 'abc', attribution: osmAttr,
+    }),
+    'OSM France': L.tileLayer('https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png', {
+      maxZoom: 19, subdomains: 'abc', attribution: osmAttr,
+    }),
+    'Esri Streets': L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+      maxZoom: 19, attribution: esriAttr,
     }),
     'OSM Standard': L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 19, attribution: osmAttr,
