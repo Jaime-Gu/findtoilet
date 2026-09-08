@@ -63,7 +63,7 @@ body {
   color: var(--brand-deep);
 }
 .logo-img {
-  height: 56px;
+  height: 65px;
   width: auto;
   display: block;
 }
@@ -145,7 +145,7 @@ body {
   background: linear-gradient(180deg, var(--brand-light) 0%, var(--brand-softer) 100%);
   /* gradient starts at the very top of the page, flowing behind the floating
      glass header — no dead white space behind the bar */
-  padding: calc(100px + 48px) 0 48px;
+  padding: calc(110px + 48px) 0 48px;
   text-align: center;
 }
 .hero h1 {
@@ -242,7 +242,7 @@ body {
 .map-header { flex: none; }
 .map-toolbar {
   position: absolute;
-  top: 106px;
+  top: 112px;
   left: 6px;
   right: 6px;
   z-index: 2000;
@@ -293,7 +293,7 @@ body {
 /* ---------- sidebar list ---------- */
 .map-main { flex: 1; display: flex; min-height: 0; position: relative; }
 #map { flex: 1; z-index: 1; }
-.leaflet-top.leaflet-left { top: 172px; } /* clear floating bars */
+.leaflet-top.leaflet-left { top: 180px; } /* clear floating bars */
 #sidebar {
   width: 380px;
   flex: none;
@@ -305,7 +305,7 @@ body {
   flex-direction: column;
   min-height: 0;
   z-index: 500;
-  padding-top: 172px; /* clear floating bars */
+  padding-top: 180px; /* clear floating bars */
 }
 .sidebar-header {
   display: flex;
@@ -574,7 +574,7 @@ body {
   }
 
   /* hero */
-  .hero { padding: calc(100px + 28px) 0 32px; }
+  .hero { padding: calc(110px + 28px) 0 32px; }
   .hero-sub { font-size: 15px; }
 
   /* map toolbar: row1 = title+count & locate, row2 = scrollable legend */

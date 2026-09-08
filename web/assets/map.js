@@ -152,7 +152,7 @@ async function resolveCity() {
       maxWidth: 300,
       // keep popups below the floating header/toolbar (~150px): auto-pan the
       // map instead of letting popups slide under the glass bars
-      autoPanPadding: L.point(10, 180),
+      autoPanPadding: L.point(10, 190),
       keepInView: true,
     });
     byId.set(p.id, marker);
