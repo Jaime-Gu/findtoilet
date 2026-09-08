@@ -63,9 +63,9 @@ body {
   color: var(--brand-deep);
 }
 .logo-img {
-  width: 34px;
-  height: 34px;
-  border-radius: 9px;
+  height: 40px;
+  width: auto;
+  display: block;
 }
 .logo-text { font-size: 22px; font-weight: 800; letter-spacing: 0.2px; }
 .logo-text em { font-style: normal; font-weight: 400; opacity: 0.75; }
