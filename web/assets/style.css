@@ -225,7 +225,7 @@ body {
   left: 6px;
   right: 6px;
   z-index: 3000;
-  background: rgba(15, 103, 115, 0.5);
+  background: rgba(46, 138, 148, 0.45);
   backdrop-filter: blur(18px) saturate(1.5);
   -webkit-backdrop-filter: blur(18px) saturate(1.5);
   border: 1px solid rgba(255, 255, 255, 0.35);
