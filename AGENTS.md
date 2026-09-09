@@ -18,6 +18,7 @@
 - 响应式（≤640px）：隐藏 GitHub 文字链、Contribute 胶囊 nowrap、地图工具栏标题计数竖排+图例横向滚动、Leaflet 弹窗限宽 84vw、body `overflow-x:hidden` 兜底
 - ⚠️ 手机端测试：无头 Chrome `--window-size` 最小宽度 500px，无法真测 390px；用 `/tmp/mobileshot/shot.js`（playwright-core + 系统 Chrome 设备模拟）截图验证
 - 本地预览：项目根目录起静态服务，访问 `/web/`（页面以 `../data/` 相对路径取数据）
+- PWA：`web/sw.js` 离线缓存（改缓存内容必须 bump 文件内 `VERSION`）+ `web/manifest.webmanifest` + `web/assets/pwa.js`（注册/更新提示/安装引导/城市离线下载，地图页经 `ft-city` 事件拿数据路径）；App 图标在 `web/assets/icons/`，由脚本从 `logo-mark.png` 生成
 
 ## 目录
 

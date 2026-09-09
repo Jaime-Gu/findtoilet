@@ -106,6 +106,8 @@ async function resolveCity() {
   document.addEventListener('ft-langchange', () => location.reload());
 
   const { city, country, index } = await resolveCity();
+  // tell pwa.js which data file backs this page (per-city offline download)
+  document.dispatchEvent(new CustomEvent('ft-city', { detail: { dataPath: city.dataPath } }));
   document.getElementById('map-city').textContent = `${localizedName(city)}, ${localizedName(country)}`;
   document.title = `FindToilet — ${localizedName(city)}`;
 

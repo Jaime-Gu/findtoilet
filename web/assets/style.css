@@ -614,3 +614,81 @@ body {
   }
   .site-footer p { white-space: nowrap; margin: 0; }
 }
+
+
+/* ---------- PWA: install button, iOS hint, update toast, offline toggle ---------- */
+.pwa-install-btn {
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 600;
+}
+.pwa-banner {
+  position: fixed;
+  left: 50%;
+  bottom: 96px;
+  transform: translateX(-50%);
+  z-index: 4000;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  max-width: min(480px, 92vw);
+  padding: 12px 16px;
+  background: rgba(223, 240, 241, 0.85);
+  backdrop-filter: blur(18px) saturate(1.5);
+  -webkit-backdrop-filter: blur(18px) saturate(1.5);
+  border: 1px solid rgba(255, 255, 255, 0.65);
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(7, 58, 66, 0.18);
+  color: var(--brand-deep);
+  font-size: 14px;
+  font-weight: 500;
+}
+.pwa-banner-close {
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: var(--muted);
+  font-size: 15px;
+  padding: 4px;
+}
+.pwa-toast {
+  position: fixed;
+  right: 16px;
+  bottom: 96px;
+  z-index: 4000;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  background: var(--brand-deep);
+  color: #fff;
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(7, 58, 66, 0.35);
+  font-size: 14px;
+}
+.pwa-toast-btn {
+  border: none;
+  cursor: pointer;
+  background: #fff;
+  color: var(--brand-deep);
+  font: inherit;
+  font-weight: 700;
+  padding: 6px 12px;
+  border-radius: 999px;
+}
+.offline-btn.active {
+  background: var(--brand-dark);
+}
+
+/* PWA: per-city offline toggle on index chips */
+.chip-offline {
+  margin-left: 6px;
+  opacity: 0.45;
+  cursor: pointer;
+  font-size: 13px;
+  line-height: 1;
+}
+.chip-offline:hover { opacity: 0.9; }
+.chip-offline.active { color: var(--brand); opacity: 1; font-weight: 700; }
