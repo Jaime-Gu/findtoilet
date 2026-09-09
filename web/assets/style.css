@@ -53,7 +53,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 8px; /* padding traded for the larger logo — bar height unchanged */
+  padding: 8px 8px;
 }
 .logo {
   display: flex;
@@ -63,7 +63,7 @@ body {
   color: var(--brand-deep);
 }
 .logo-img {
-  height: 75px;
+  height: 83px;
   width: auto;
   display: block;
 }
